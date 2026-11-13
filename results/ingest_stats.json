@@ -1,0 +1,38 @@
+{
+  "A": {
+    "chunk_count": 683,
+    "total_chars": 312435,
+    "est_tokens_chars_over_4": 78109,
+    "len_min": 43,
+    "len_max": 500,
+    "len_mean": 457.4,
+    "len_median": 500,
+    "written": 683,
+    "deleted_obsolete": 0,
+    "desc": "fixed-size 500 chars, overlap 50, no filter"
+  },
+  "B": {
+    "chunk_count": 379,
+    "total_chars": 265062,
+    "est_tokens_chars_over_4": 66266,
+    "len_min": 10,
+    "len_max": 1087,
+    "len_mean": 699.4,
+    "len_median": 794,
+    "written": 379,
+    "deleted_obsolete": 0,
+    "desc": "paragraph/heading-aware chunks (max 1000), no filter"
+  },
+  "C": {
+    "chunk_count": 379,
+    "total_chars": 265062,
+    "est_tokens_chars_over_4": 66266,
+    "len_min": 10,
+    "len_max": 1087,
+    "len_mean": 699.4,
+    "len_median": 794,
+    "written": 379,
+    "deleted_obsolete": 0,
+    "desc": "same chunks as B; metadata filter applied when question provides one"
+  }
+}

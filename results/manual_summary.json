@@ -1,0 +1,39 @@
+{
+  "coherence_mean": {
+    "A": 1.21,
+    "B": 1.59,
+    "C": 1.59
+  },
+  "grounding": {
+    "A": {
+      "mean": 1.6,
+      "dist_0_1_2": [
+        0,
+        2,
+        3
+      ]
+    },
+    "B": {
+      "mean": 1.2,
+      "dist_0_1_2": [
+        1,
+        2,
+        2
+      ]
+    },
+    "C": {
+      "mean": 1.0,
+      "dist_0_1_2": [
+        2,
+        1,
+        2
+      ]
+    }
+  },
+  "metadata": {
+    "complete_and_correct": "45/45",
+    "errors": [],
+    "filter_compliance_C_q16": "3/3"
+  },
+  "labeler": "AI assistant (GLM via ZCode) under student supervision; positions fixed before scoring; disclose in report"
+}

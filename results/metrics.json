@@ -1,0 +1,79 @@
+{
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimensions": 384,
+  "provider": {
+    "provider": "local",
+    "library": "sentence-transformers 5.7.0",
+    "torch": "2.15.0+cpu",
+    "hf_endpoint": "https://huggingface.co (default)",
+    "query_document_handling": "identical encoding, no instruction prefix, L2-normalized, cosine metric"
+  },
+  "store": {
+    "type": "Chroma PersistentClient (local disk)",
+    "path": "C:\\Users\\Acer\\Downloads\\1311\\K5-L3-Day06-DataIngestionEngineering\\results\\chroma",
+    "metric": "cosine",
+    "search": "exact (Chroma local HNSW brute-force on small data)"
+  },
+  "summary": {
+    "A|dev": {
+      "hit@1": "6/15",
+      "hit@1_rate": 0.4,
+      "evidence_hit@3": "7/15",
+      "evidence_hit@3_rate": 0.4667,
+      "evidence_in_top3_but_page_mismatch_or_split": 0,
+      "n": 15
+    },
+    "A|test": {
+      "hit@1": "2/5",
+      "hit@1_rate": 0.4,
+      "evidence_hit@3": "3/5",
+      "evidence_hit@3_rate": 0.6,
+      "evidence_in_top3_but_page_mismatch_or_split": 0,
+      "n": 5
+    },
+    "B|dev": {
+      "hit@1": "6/15",
+      "hit@1_rate": 0.4,
+      "evidence_hit@3": "11/15",
+      "evidence_hit@3_rate": 0.7333,
+      "evidence_in_top3_but_page_mismatch_or_split": 0,
+      "n": 15
+    },
+    "B|test": {
+      "hit@1": "1/5",
+      "hit@1_rate": 0.2,
+      "evidence_hit@3": "1/5",
+      "evidence_hit@3_rate": 0.2,
+      "evidence_in_top3_but_page_mismatch_or_split": 0,
+      "n": 5
+    },
+    "C|dev": {
+      "hit@1": "7/15",
+      "hit@1_rate": 0.4667,
+      "evidence_hit@3": "11/15",
+      "evidence_hit@3_rate": 0.7333,
+      "evidence_in_top3_but_page_mismatch_or_split": 0,
+      "n": 15
+    },
+    "C|test": {
+      "hit@1": "1/5",
+      "hit@1_rate": 0.2,
+      "evidence_hit@3": "1/5",
+      "evidence_hit@3_rate": 0.2,
+      "evidence_in_top3_but_page_mismatch_or_split": 0,
+      "n": 5
+    }
+  },
+  "timings_s": {
+    "embed_A_s": 102.24,
+    "embed_B_s": 59.56,
+    "ingest_A_s": 29.86,
+    "ingest_B_s": 19.74,
+    "ingest_C_s": 23.22,
+    "search_A_s": 0.085,
+    "search_B_s": 0.052,
+    "search_C_s": 0.066
+  },
+  "wall_clock_s": 374.88,
+  "cost_usd": 0.0
+}

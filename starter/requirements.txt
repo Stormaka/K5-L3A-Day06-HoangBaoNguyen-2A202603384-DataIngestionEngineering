@@ -1,4 +1,7 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
-psycopg[binary]==3.3.8
+# Core setup, PDF parsing, local vector store and local embedding model.
+# (pgvector/psycopg kept optional: this submission uses Chroma instead.)
 pypdf>=5,<7
-python-dotenv>=1,<2
+chromadb>=0.5,<2
+sentence-transformers>=3,<6
+# psycopg[binary]==3.3.8   # only needed for the optional pgvector starter
+# python-dotenv>=1,<2      # only needed for API-key-based embedders

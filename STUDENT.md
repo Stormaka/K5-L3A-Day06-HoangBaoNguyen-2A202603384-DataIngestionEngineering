@@ -1,8 +1,8 @@
 # Thông tin học viên
 
-- Họ và tên:
-- MSSV:
-- Lớp: L3A / L3B / khác:
-- Chủ đề và corpus:
-- Repo bài nộp:
-- Commit chốt bài:
+- Họ và tên: **Hoàng Bảo Nguyên**
+- MSSV: **2A202603384**
+- Lớp: **L3A**
+- Chủ đề và corpus: Kinh tế Việt Nam — World Bank *Taking Stock* August 2023 + August 2024 (CC BY-NC 3.0 IGO, 116 trang nội dung) — `data/manifest.json`
+- Repo bài nộp: https://github.com/Stormaka/K5-L3A-Day06-HoangBaoNguyen-2A202603384-DataIngestionEngineering
+- Commit chốt bài: **[ĐIỀN COMMIT HASH SAU KHI COMMIT]**

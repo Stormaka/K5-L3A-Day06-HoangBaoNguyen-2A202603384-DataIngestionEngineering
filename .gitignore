@@ -8,3 +8,7 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+# local vector DB (rebuilt by `python -m src.run`) and exploration dumps
+results/chroma/
+data/*_pages.json

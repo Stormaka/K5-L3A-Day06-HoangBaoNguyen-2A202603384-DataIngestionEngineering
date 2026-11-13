@@ -1,0 +1,882 @@
+[
+  {
+    "question_id": "q16",
+    "question": "According to the August 2023 Taking Stock report, what GDP growth rate is projected for Vietnam in 2025?",
+    "expected_answer": "6.0 percent in 2025",
+    "evidence_quote": "with a slow projected recovery to 5.5 percent in 2024 and to 6.0 percent in 2025",
+    "gold_pages": [
+      {
+        "document_id": "ts2023",
+        "page": 13
+      },
+      {
+        "page": 32,
+        "document_id": "ts2023"
+      }
+    ],
+    "filter": {
+      "report": "ts2023"
+    },
+    "results": {
+      "A": [
+        {
+          "chunk_id": "ts2023:p11:c1:5d8a1d3a6b",
+          "score": 0.835223,
+          "metadata": {
+            "size": 500,
+            "year": 2023,
+            "chars": 3715,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "page": 11,
+            "document_id": "ts2023",
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "report": "ts2023",
+            "strategy_chunker": "fixed",
+            "overlap": 50
+          },
+          "text": "stering 8 percent real GDP growth in 2022, Vietnam's economic growth decelerated sharply in the first half of 2023, reflecting a slump in external and weaker domestic demand. Vietnam's real GDP growth slowed to 3.7 percent year-on-year (y/y) during the first half of 2023, 1 well below growth posted during the same period in 2022 (6.4 percent, y/y). The slowdown was led by a sharp deterioration in external demand with exports contracting by 12 percent (y/y) in the first half of 2023. This in turn"
+        },
+        {
+          "chunk_id": "ts2023:p32:c4:aaffe2d0ca",
+          "score": 0.823003,
+          "metadata": {
+            "report": "ts2023",
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "page": 32,
+            "chars": 2531,
+            "strategy_chunker": "fixed",
+            "document_id": "ts2023",
+            "size": 500,
+            "year": 2023,
+            "overlap": 50,
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth"
+          },
+          "text": "cted to affect economic growth in the short term Vietnam's economy is expected to grow by 4.7 percent in 2023, with a slow projected recovery to 5.5 percent in 2024 and to 6.0 percent in 2025. While softening, domestic demand is expected to be the main driver of growth in 2023. Private consumption will remain resilient, growing 6.0 (y/y) percent - below its pre-pandemic growth of 7 percent (y/y) in 2019 - and contributing 3.4 percentage point to GDP growth. Overall, investment will contribute 1."
+        },
+        {
+          "chunk_id": "ts2024:p33:c2:ed056dc2c1",
+          "score": 0.818561,
+          "metadata": {
+            "report": "ts2024",
+            "overlap": 50,
+            "size": 500,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "year": 2024,
+            "page": 33,
+            "strategy_chunker": "fixed",
+            "document_id": "ts2024",
+            "chars": 2339,
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f"
+          },
+          "text": "ent -30 -20 -10 0 10 20 30 2019 2020 2021 2022 2023 6M-23 6M-24 Taxes revenues Non-taxes revenues Public investment Recurrent expenditures Fiscal balance 2019 2020 2021 2022 2023 H1-23 H1-24 30 20 10 0 -10 -20 -30 Viet Nam's economic growth prospects are positive Viet Nam's economy is forecast to grow by 6.1 percent in 2024 and rising to 6.5 percent in 2025–26 (Table 1.1). This projection assumes an easing of manufacturing exports growth in H2-2024, after a 16.9 percent rebound growth (y/y) in H"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "ts2023:p11:c1:b77c0e82ca",
+          "score": 0.814322,
+          "metadata": {
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "year": 2023,
+            "max_size": 1000,
+            "heading": "Recent Economic Developments",
+            "page": 11,
+            "chars": 3715,
+            "document_id": "ts2023",
+            "strategy_chunker": "paragraph",
+            "report": "ts2023"
+          },
+          "text": "Recent Economic Developments. After registering 8 percent real GDP growth in 2022, Vietnam's economic growth decelerated sharply in the first half of 2023, reflecting a slump in external and weaker domestic demand. Vietnam's real GDP growth slowed to 3.7 percent year-on-year (y/y) during the first half of 2023, 1 well below growth posted during the same period in 2022 (6.4 percent, y/y). The slowdown was led by a sharp deterioration in external demand with exports contracting by 12 percent (y/y) in the first half of 2023. This in turn weighed on the performance of the export sector, which is estimated to account for 50 percent of Vietnam's GDP. 2 Simultaneously, domestic demand moderated due to fading base effects3 from last year's post-COVID rebound and weakening consumer confidence. Growth in final consumption expenditure 4 slowed to 2.7 percent (y/y) in the first half of the year, compared with 6.1 percent (y/y) in the first half of 2022."
+        },
+        {
+          "chunk_id": "ts2024:p33:c1:745c7d67b0",
+          "score": 0.810199,
+          "metadata": {
+            "document_id": "ts2024",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "page": 33,
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "max_size": 1000,
+            "year": 2024,
+            "report": "ts2024",
+            "strategy_chunker": "paragraph",
+            "heading": "0",
+            "chars": 2339
+          },
+          "text": "0. Viet Nam's economic growth prospects are positive Viet Nam's economy is forecast to grow by 6.1 percent in 2024 and rising to 6.5 percent in 2025–26 (Table 1.1). This projection assumes an easing of manufacturing exports growth in H2-2024, after a 16.9 percent rebound growth (y/y) in H1-2024 and the expected moderation of global demand in 2024, in particular from the United States, Viet Nam's largest export market. Export growth is expected to firm up moderately over 2025–26 as global trade prospects and external demand from major trade partners such as the United States, Euro zone, and China improves slightly (Figures 1.31 and 1.32, Box 1.1). The real estate market is showing signs of recovery and is forecast to turn the corner in late 2024 and into 2025 as the corporate bond market freeze has eased and the Land Law came into effect from August 2024."
+        },
+        {
+          "chunk_id": "ts2024:p16:c0:a9b4c170e3",
+          "score": 0.809959,
+          "metadata": {
+            "strategy_chunker": "paragraph",
+            "document_id": "ts2024",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "year": 2024,
+            "heading": "",
+            "page": 16,
+            "report": "ts2024",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "chars": 2887,
+            "max_size": 1000
+          },
+          "text": "16 TAKING STOCK AUGUST 2024 REACHING NEW HEIGHTS IN CAPITAL MARKETS Viet Nam's economic prospects are positive, with broadly balanced risks Viet Nam's economy is forecast to grow by 6.1 percent in 2024, rising to 6.5 percent in 2025–26 (Table 0.1). This projection assumes an easing of manufacturing exports growth in H2-2024, after a 16.9 percent rebound (y/y) in H1-2024 and the expected moderation of global demand in 2024, in particular the United States, Viet Nam's largest export market. The real estate market is showing signs of a recovery and is forecast to turn the corner in late 2024 and into 2025 as the corporate bond market freeze has eased and the Land Law came into effect from August 2024. With continued export growth and signs of a real estate recovery, domestic demand is set to firm up in H2-2024 as investor and consumer sentiment improve."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "ts2023:p11:c1:b77c0e82ca",
+          "score": 0.814322,
+          "metadata": {
+            "max_size": 1000,
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "page": 11,
+            "strategy_chunker": "paragraph",
+            "chars": 3715,
+            "year": 2023,
+            "heading": "Recent Economic Developments",
+            "document_id": "ts2023",
+            "report": "ts2023",
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768"
+          },
+          "text": "Recent Economic Developments. After registering 8 percent real GDP growth in 2022, Vietnam's economic growth decelerated sharply in the first half of 2023, reflecting a slump in external and weaker domestic demand. Vietnam's real GDP growth slowed to 3.7 percent year-on-year (y/y) during the first half of 2023, 1 well below growth posted during the same period in 2022 (6.4 percent, y/y). The slowdown was led by a sharp deterioration in external demand with exports contracting by 12 percent (y/y) in the first half of 2023. This in turn weighed on the performance of the export sector, which is estimated to account for 50 percent of Vietnam's GDP. 2 Simultaneously, domestic demand moderated due to fading base effects3 from last year's post-COVID rebound and weakening consumer confidence. Growth in final consumption expenditure 4 slowed to 2.7 percent (y/y) in the first half of the year, compared with 6.1 percent (y/y) in the first half of 2022."
+        },
+        {
+          "chunk_id": "ts2023:p19:c1:62e69d4cc1",
+          "score": 0.776788,
+          "metadata": {
+            "page": 19,
+            "chars": 2430,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "report": "ts2023",
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "heading": "",
+            "max_size": 1000,
+            "strategy_chunker": "paragraph",
+            "document_id": "ts2023",
+            "year": 2023
+          },
+          "text": "Vietnam's real GDP growth slowed to 3.7 percent (y/y) during the first semester of 2023, 19 well below growth posted during the same period in 2022 (6.4 percent, y/y) (Figure 1.3). The slowdown was led by a deterioration of external demand with exports contracting by 12 percent (y/y) in the first half of 2023, in turn weighing on the performance of the export sector, which is estimated to account for 50 percent of Vietnam's GDP directly and indirectly. 20 Simultaneously, domestic demand also moderated after the last's I. RECENT ECONOMIC DEVELOPMENTS Figure 1.1. Global GDP growth -5 -15 2018 2019 2020 2021 2022 2023f 2024f 18 World Bank, Global Economic Prospects, June 2023. 19 Real GDP grew by 3.3 percent (y/y) in Q1-2023, lower than other economies in East Asia except Thailand, but slightly improved to 4.1 percent (y/y) in Q2-2023."
+        },
+        {
+          "chunk_id": "ts2023:p33:c0:d770249c74",
+          "score": 0.686715,
+          "metadata": {
+            "year": 2023,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "report": "ts2023",
+            "strategy_chunker": "paragraph",
+            "max_size": 1000,
+            "heading": "MAKING PUBLIC INVESTMENT WORK FOR GROWTH",
+            "page": 33,
+            "document_id": "ts2023",
+            "chars": 4252,
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth"
+          },
+          "text": "MAKING PUBLIC INVESTMENT WORK FOR GROWTH. 55 IMF World Economic Outlook Update, July 2023. 56 Vietnam currently has a payroll of approximately 3.5 million, including 2.5 million public service workers (including teachers, doctors, and nurses) and about one million military staff. Pensioners will also benefit from a 12.5 percent increase in their monthly pension. 57 World Bank Global Economic Prospects, Commodity Market Outlook. April 2023. \"Commodity prices are expected to fall by 21 percent this year and remain mostly stable in 2024. The expected decline in prices for 2023 represents the steepest decline since the pandemic. The decline in energy prices in the first quarter of 2023 is expected to fade and be followed by stable prices over the remainder of 2023 and a slight uptick in 2024. Energy price forecasts have been downgraded sharply."
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q17",
+    "question": "Under a broader definition, how high could Vietnam's total problem loans be, and what must be included to reach that figure?",
+    "expected_answer": "As high as 7.9 percent, if restructured loans and Viet Nam Asset Management Company (VAMC) debts are included",
+    "evidence_quote": "total problem loans could be as high as 7.9 percent if restructured loans and Viet Nam Asset Management Company (VAMC) debts are included",
+    "gold_pages": [
+      {
+        "page": 15,
+        "document_id": "ts2024"
+      },
+      {
+        "document_id": "ts2024",
+        "page": 31
+      }
+    ],
+    "filter": null,
+    "results": {
+      "A": [
+        {
+          "chunk_id": "ts2024:p15:c2:c8f201ce5d",
+          "score": 0.7812,
+          "metadata": {
+            "document_id": "ts2024",
+            "overlap": 50,
+            "year": 2024,
+            "page": 15,
+            "chars": 3797,
+            "size": 500,
+            "report": "ts2024",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "strategy_chunker": "fixed"
+          },
+          "text": "ercent of total loans in 2023, based on the latest available data, driven largely by the recognition of bad debts held by Saigon Joint Stock Commercial Bank (SCB). However, total problem loans could be as high as 7.9 percent if restructured loans and Viet Nam Asset Management Company (VAMC) debts are included. Latest Q1-2024 data suggests that the NPL ratios of 27 listed commercial banks, which account for 83 percent of total outstanding credit in the banking sector, rose from 1.9 percent in Q4-"
+        },
+        {
+          "chunk_id": "ts2024:p31:c1:b60f102d60",
+          "score": 0.753366,
+          "metadata": {
+            "size": 500,
+            "strategy_chunker": "fixed",
+            "document_id": "ts2024",
+            "report": "ts2024",
+            "page": 31,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "chars": 2519,
+            "year": 2024,
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "overlap": 50
+          },
+          "text": ". However, total problem loans could be as high as 7.9 percent if restructured loans and Viet Nam Asset Management Company (VAMC) debts are included. Latest Q1-2024 data suggests that the NPL ratios of 27 listed commercial banks, which account for 83 percent of total outstanding credit in the banking sector, rose from 1.9 percent in Q4-2023 to 2.2 percent in Q1-2024, amid rising bad debts coupled with sluggish credit growth. In addition, the expiration of pandemic forbearance measures, set to en"
+        },
+        {
+          "chunk_id": "ts2023:p12:c8:0828e3b0b2",
+          "score": 0.660516,
+          "metadata": {
+            "document_id": "ts2023",
+            "size": 500,
+            "overlap": 50,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "chars": 4106,
+            "strategy_chunker": "fixed",
+            "report": "ts2023",
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "page": 12,
+            "year": 2023
+          },
+          "text": ", Binh Phuoc and Tay Ninh, contributing about 32 percent of GDP. The region is home to 18.7 million people or about 19 percent of Vietnam population. 7 Ministry of Labor, Invalids and Social Affairs, June 2023 8 Circular 02/2023/TT-NHNN allows banks to restructure loans and stagger provisions over multiple financial years when owed by borrowers which are facing payment difficulties but who have been assessed to be capable to repay principal and/or interest according to the restructured repayment"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "ts2023:p16:c5:4ff3a0de3b",
+          "score": 0.687471,
+          "metadata": {
+            "year": 2023,
+            "heading": "TAKING STOCK AUGUST 2023",
+            "chars": 4345,
+            "max_size": 1000,
+            "report": "ts2023",
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "document_id": "ts2023",
+            "strategy_chunker": "paragraph",
+            "page": 16
+          },
+          "text": "TAKING STOCK AUGUST 2023. Vietnam's total incremental financing needs for the resilient and decarbonizing pathways could reach an estimated 12 Incremental capital output ratio (ICOR) data from Vietnam General Statistics Office (GSO). 13 World Economic Forum - The Global Competitiveness Index (2019). 14 Public Expenditure and Financial Accountability (PEFA) Framework. 15 Regional Investments in Vietnam: Challenges and Opportunities (World Bank Policy Note, 2023). In the same review, it is noted that time overrun tends to vary more widely between one to three years in the case of smaller projects. 16 Vibrant Vietnam: Forging the Foundation of a High-Income Economy\" (World Bank Report, 2019)."
+        },
+        {
+          "chunk_id": "ts2023:p25:c1:2c6558dddd",
+          "score": 0.62448,
+          "metadata": {
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "heading": "",
+            "year": 2023,
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "strategy_chunker": "paragraph",
+            "max_size": 1000,
+            "report": "ts2023",
+            "chars": 2832,
+            "document_id": "ts2023",
+            "page": 25
+          },
+          "text": "Vietnam recorded a significant net errors and omissions (US$7.5 billion in the first quarter of 2023), 39 likely reflecting continued unrecorded outflows due to persistent devaluation expectations and interest rate differentials. Despite this elevated net errors and omissions term, surpluses in both current and financial accounts helped boost the overall balance of payments surplus, allowing the State Bank of Vietnam (SBV) to build international reserves (US$87.1 billion at end the fourth quarter of 2022 to about US$88.7 billion by the end of the first quarter of 2023, equivalent to 3.3 months of imports. 40 Slowing imports and more flexible foreign exchange (FX) management introduced in 2022 by the SBV, which allowed a +5/-5 band around the central rate, contributed to a relatively stable FX market during the first semester of 2023 (Figure 1.14)."
+        },
+        {
+          "chunk_id": "ts2023:p12:c6:bf4ecd2962",
+          "score": 0.611857,
+          "metadata": {
+            "year": 2023,
+            "chars": 4106,
+            "report": "ts2023",
+            "max_size": 1000,
+            "document_id": "ts2023",
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "heading": "TAKING STOCK AUGUST 2023",
+            "page": 12,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "strategy_chunker": "paragraph"
+          },
+          "text": "TAKING STOCK AUGUST 2023. 6 The Southeast Region includes Ho Chi Minh City and Provinces of Dong Nai, Binh Duong, Ba Ria – Vung Tau, Binh Phuoc and Tay Ninh, contributing about 32 percent of GDP. The region is home to 18.7 million people or about 19 percent of Vietnam population. 7 Ministry of Labor, Invalids and Social Affairs, June 2023 8 Circular 02/2023/TT-NHNN allows banks to restructure loans and stagger provisions over multiple financial years when owed by borrowers which are facing payment difficulties but who have been assessed to be capable to repay principal and/or interest according to the restructured repayment term."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "ts2023:p16:c5:4ff3a0de3b",
+          "score": 0.687471,
+          "metadata": {
+            "heading": "TAKING STOCK AUGUST 2023",
+            "chars": 4345,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "document_id": "ts2023",
+            "strategy_chunker": "paragraph",
+            "page": 16,
+            "year": 2023,
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "report": "ts2023",
+            "max_size": 1000
+          },
+          "text": "TAKING STOCK AUGUST 2023. Vietnam's total incremental financing needs for the resilient and decarbonizing pathways could reach an estimated 12 Incremental capital output ratio (ICOR) data from Vietnam General Statistics Office (GSO). 13 World Economic Forum - The Global Competitiveness Index (2019). 14 Public Expenditure and Financial Accountability (PEFA) Framework. 15 Regional Investments in Vietnam: Challenges and Opportunities (World Bank Policy Note, 2023). In the same review, it is noted that time overrun tends to vary more widely between one to three years in the case of smaller projects. 16 Vibrant Vietnam: Forging the Foundation of a High-Income Economy\" (World Bank Report, 2019)."
+        },
+        {
+          "chunk_id": "ts2023:p25:c1:2c6558dddd",
+          "score": 0.62448,
+          "metadata": {
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "document_id": "ts2023",
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "year": 2023,
+            "page": 25,
+            "chars": 2832,
+            "heading": "",
+            "report": "ts2023",
+            "strategy_chunker": "paragraph",
+            "max_size": 1000
+          },
+          "text": "Vietnam recorded a significant net errors and omissions (US$7.5 billion in the first quarter of 2023), 39 likely reflecting continued unrecorded outflows due to persistent devaluation expectations and interest rate differentials. Despite this elevated net errors and omissions term, surpluses in both current and financial accounts helped boost the overall balance of payments surplus, allowing the State Bank of Vietnam (SBV) to build international reserves (US$87.1 billion at end the fourth quarter of 2022 to about US$88.7 billion by the end of the first quarter of 2023, equivalent to 3.3 months of imports. 40 Slowing imports and more flexible foreign exchange (FX) management introduced in 2022 by the SBV, which allowed a +5/-5 band around the central rate, contributed to a relatively stable FX market during the first semester of 2023 (Figure 1.14)."
+        },
+        {
+          "chunk_id": "ts2023:p12:c6:bf4ecd2962",
+          "score": 0.611857,
+          "metadata": {
+            "report": "ts2023",
+            "year": 2023,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "chars": 4106,
+            "page": 12,
+            "strategy_chunker": "paragraph",
+            "max_size": 1000,
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "heading": "TAKING STOCK AUGUST 2023",
+            "document_id": "ts2023"
+          },
+          "text": "TAKING STOCK AUGUST 2023. 6 The Southeast Region includes Ho Chi Minh City and Provinces of Dong Nai, Binh Duong, Ba Ria – Vung Tau, Binh Phuoc and Tay Ninh, contributing about 32 percent of GDP. The region is home to 18.7 million people or about 19 percent of Vietnam population. 7 Ministry of Labor, Invalids and Social Affairs, June 2023 8 Circular 02/2023/TT-NHNN allows banks to restructure loans and stagger provisions over multiple financial years when owed by borrowers which are facing payment difficulties but who have been assessed to be capable to repay principal and/or interest according to the restructured repayment term."
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q18",
+    "question": "How did the VND/US$ market exchange rate move between December 2023 and the end of June 2024?",
+    "expected_answer": "It weakened from VND 24,258 in December 2023 to VND 25,334 by end-June 2024",
+    "evidence_quote": "the VND/US$ exchange rate weakened from VND 24,258 in December 2023 to VND 25,334 by the end of June 2024 on the market rate",
+    "gold_pages": [
+      {
+        "document_id": "ts2024",
+        "page": 14
+      }
+    ],
+    "filter": null,
+    "results": {
+      "A": [
+        {
+          "chunk_id": "ts2024:p14:c5:f06936b21e",
+          "score": 0.704549,
+          "metadata": {
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "chars": 3539,
+            "size": 500,
+            "report": "ts2024",
+            "strategy_chunker": "fixed",
+            "overlap": 50,
+            "document_id": "ts2024",
+            "year": 2024,
+            "page": 14
+          },
+          "text": "ed the central rate by 1.2 percent between January and June 2024, allowing the market rate to depreciate further by 3.6 percent in the same period. It used foreign exchange interventions to mediate depreciation pressures against the dong and foreign exchange reserves were estimated to have fallen from US$90 billion in December 2023 to around US$83–84 billion by the end of June 2024 (equivalent to 2.7 months of imports). In addition, the SBV began withdrawing liquidity from the interbank market i"
+        },
+        {
+          "chunk_id": "ts2024:p28:c3:92b721c684",
+          "score": 0.639147,
+          "metadata": {
+            "report": "ts2024",
+            "size": 500,
+            "strategy_chunker": "fixed",
+            "year": 2024,
+            "chars": 3138,
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "document_id": "ts2024",
+            "page": 28,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "overlap": 50
+          },
+          "text": "om VND 24,258 in December 2023 to VND 24,760 by the end of March 2024, putting pressure on the local currency and raising concern about potential further depreciation. Seeking other investment instruments, the domestic demand for gold spiked (+28.6 percent (y/y)) which, combined with supply controls, led to substantial price premiums fueling informal gold imports and purchases. As a result, net errors, and omissions, which include unrecorded capital outflows, quadrupled from 1.9 percent of GDP i"
+        },
+        {
+          "chunk_id": "ts2023:p26:c1:430cc3b3fc",
+          "score": 0.615916,
+          "metadata": {
+            "page": 26,
+            "year": 2023,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "document_id": "ts2023",
+            "report": "ts2023",
+            "strategy_chunker": "fixed",
+            "chars": 1809,
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "size": 500,
+            "overlap": 50
+          },
+          "text": " Net Errors and Omissions Overall balance Source: SBV, Haver Analytics, Global Economic Monitor Database, and World Bank staff calculations Note: A lower real effective exchange rate (REER) and a higher nominal exchange rate mean depreciation of the Vietnamese dong. RHS = right-hand scale Jun-18 Oct-18 Feb-19 Feb-20 Feb-21 Feb-22 Feb-23Jun-19 Jun-20 Jun-21 Jun-22 Jun-23Oct-19 Oct-20 Oct-21 Oct-22 Figure 1.14. Exchange rate VND/US$ 140 135 130 125 120 115 110 26000 25000 24000 23000 22000 21000 C"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "ts2024:p14:c3:f08e3c5792",
+          "score": 0.644055,
+          "metadata": {
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "heading": "offset current account and financial account surpluses",
+            "strategy_chunker": "paragraph",
+            "report": "ts2024",
+            "page": 14,
+            "chars": 3539,
+            "year": 2024,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "max_size": 1000,
+            "document_id": "ts2024"
+          },
+          "text": "offset current account and financial account surpluses. The SBV responded to emerging exchange rate pressures through a combination of gradual devaluation, FX interventions, and tighter liquidity. The SBV depreciated the central rate by 1.2 percent between January and June 2024, allowing the market rate to depreciate further by 3.6 percent in the same period. It used foreign exchange interventions to mediate depreciation pressures against the dong and foreign exchange reserves were estimated to have fallen from US$90 billion in December 2023 to around US$83–84 billion by the end of June 2024 (equivalent to 2.7 months of imports). In addition, the SBV began withdrawing liquidity from the interbank market in mid-March 2024 by issuing a higher SBV bill rate (4.25 percent). This bumped up the average overnight interbank interest rate from 0.9 percent in March 2024 to 4.25 percent in May 2024, before decreasing to 2.8 percent in June 2024. offset current account and financial account surpluses. These interbank interest rate increases softened pressure on the currency."
+        },
+        {
+          "chunk_id": "ts2023:p12:c3:8ced795eed",
+          "score": 0.634871,
+          "metadata": {
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "max_size": 1000,
+            "heading": "TAKING STOCK AUGUST 2023",
+            "document_id": "ts2023",
+            "page": 12,
+            "year": 2023,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "chars": 4106,
+            "report": "ts2023",
+            "strategy_chunker": "paragraph"
+          },
+          "text": "TAKING STOCK AUGUST 2023. Meanwhile, core inflation (which excludes food, fuels, and government administered prices) slowed from 5.2 percent (y/y) in January to 4.3 percent (y/y) in June, as second-round effects of the 2022 commodity price shock persisted, including through higher costs of construction materials and"
+        },
+        {
+          "chunk_id": "ts2023:p28:c1:64b1304659",
+          "score": 0.601486,
+          "metadata": {
+            "document_id": "ts2023",
+            "heading": "As inflation fell, SBV loosened monetary policy",
+            "chars": 2771,
+            "max_size": 1000,
+            "page": 28,
+            "year": 2023,
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "strategy_chunker": "paragraph",
+            "report": "ts2023"
+          },
+          "text": "As inflation fell, SBV loosened monetary policy. This indicates that the pass-through effects of the 2022 fuel price hikes persist, including through higher costs of construction materials and subsequently housing.42 In the context of declining inflation and weaker growth, the State Bank of Vietnam (SBV) has loosened monetary policy since mid-March 2023. At the end of second quarter of 2023, SBV discount and refinancing rates were set at 3 and 4.5 percent, respectively, dropping by 150-200 basis points through a series of four policy rate cuts between March and June 2023 (Figure 1.20). Caps on interest rates for deposits with maturities less than six months and lending rates for priority sectors were also reduced by the same magnitude to encourage commercial banks to provide new, cheaper loans to enterprises and individual customers."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "ts2024:p14:c3:f08e3c5792",
+          "score": 0.644055,
+          "metadata": {
+            "page": 14,
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "chars": 3539,
+            "strategy_chunker": "paragraph",
+            "document_id": "ts2024",
+            "max_size": 1000,
+            "report": "ts2024",
+            "year": 2024,
+            "heading": "offset current account and financial account surpluses"
+          },
+          "text": "offset current account and financial account surpluses. The SBV responded to emerging exchange rate pressures through a combination of gradual devaluation, FX interventions, and tighter liquidity. The SBV depreciated the central rate by 1.2 percent between January and June 2024, allowing the market rate to depreciate further by 3.6 percent in the same period. It used foreign exchange interventions to mediate depreciation pressures against the dong and foreign exchange reserves were estimated to have fallen from US$90 billion in December 2023 to around US$83–84 billion by the end of June 2024 (equivalent to 2.7 months of imports). In addition, the SBV began withdrawing liquidity from the interbank market in mid-March 2024 by issuing a higher SBV bill rate (4.25 percent). This bumped up the average overnight interbank interest rate from 0.9 percent in March 2024 to 4.25 percent in May 2024, before decreasing to 2.8 percent in June 2024. offset current account and financial account surpluses. These interbank interest rate increases softened pressure on the currency."
+        },
+        {
+          "chunk_id": "ts2023:p12:c3:8ced795eed",
+          "score": 0.634871,
+          "metadata": {
+            "report": "ts2023",
+            "page": 12,
+            "document_id": "ts2023",
+            "year": 2023,
+            "max_size": 1000,
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "heading": "TAKING STOCK AUGUST 2023",
+            "strategy_chunker": "paragraph",
+            "chars": 4106,
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768"
+          },
+          "text": "TAKING STOCK AUGUST 2023. Meanwhile, core inflation (which excludes food, fuels, and government administered prices) slowed from 5.2 percent (y/y) in January to 4.3 percent (y/y) in June, as second-round effects of the 2022 commodity price shock persisted, including through higher costs of construction materials and"
+        },
+        {
+          "chunk_id": "ts2023:p28:c1:64b1304659",
+          "score": 0.601486,
+          "metadata": {
+            "max_size": 1000,
+            "page": 28,
+            "strategy_chunker": "paragraph",
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "year": 2023,
+            "heading": "As inflation fell, SBV loosened monetary policy",
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "document_id": "ts2023",
+            "report": "ts2023",
+            "chars": 2771
+          },
+          "text": "As inflation fell, SBV loosened monetary policy. This indicates that the pass-through effects of the 2022 fuel price hikes persist, including through higher costs of construction materials and subsequently housing.42 In the context of declining inflation and weaker growth, the State Bank of Vietnam (SBV) has loosened monetary policy since mid-March 2023. At the end of second quarter of 2023, SBV discount and refinancing rates were set at 3 and 4.5 percent, respectively, dropping by 150-200 basis points through a series of four policy rate cuts between March and June 2023 (Figure 1.20). Caps on interest rates for deposits with maturities less than six months and lending rates for priority sectors were also reduced by the same magnitude to encourage commercial banks to provide new, cheaper loans to enterprises and individual customers."
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q19",
+    "question": "How large are the savings mobilized through institutional investors in Vietnam, as a share of GDP?",
+    "expected_answer": "Only 19 percent of GDP, smaller than most regional peers",
+    "evidence_quote": "the total amount of savings mobilized through institutional investors is still low, only 19 percent of GDP",
+    "gold_pages": [
+      {
+        "document_id": "ts2024",
+        "page": 17
+      }
+    ],
+    "filter": null,
+    "results": {
+      "A": [
+        {
+          "chunk_id": "ts2024:p40:c2:ecc2703c30",
+          "score": 0.758805,
+          "metadata": {
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "strategy_chunker": "fixed",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "document_id": "ts2024",
+            "page": 40,
+            "year": 2024,
+            "report": "ts2024",
+            "size": 500,
+            "overlap": 50,
+            "chars": 3002
+          },
+          "text": "than half the regional average, reflecting limited long-term financing. Also, recent market turbulence – which saw a significant drop in corporate bond issuances from late 2022 – exposed weaknesses in the market's foundations. Savings function: The total amount of savings is still low, limiting the amount available for long-term investments. In recent years, the number of securities accounts held by individuals has increased, but the total size of Viet Nam's institutional investors remains small"
+        },
+        {
+          "chunk_id": "ts2024:p39:c7:a83dfe5ea5",
+          "score": 0.734791,
+          "metadata": {
+            "page": 39,
+            "chars": 3653,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "strategy_chunker": "fixed",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "year": 2024,
+            "document_id": "ts2024",
+            "size": 500,
+            "report": "ts2024",
+            "overlap": 50
+          },
+          "text": "e) investment levels represent 32 percent of GDP, below the levels of China and Türkiye, or historical investment ratios achieved by Republic of Korea and Singapore when they reached high-income status (World Bank GVC report, forthcoming). 20 Diop, M. 2019. \"Accelerating Viet Nam's Path to Prosperity.\" Washington, DC: World Bank. Additional financing needs for the climate transition are estimated at US$368 billion by 2040, or about 6.8 percent of GDP per year (World Bank CCDR 2022). I. Introduct"
+        },
+        {
+          "chunk_id": "ts2024:p50:c6:f986326c72",
+          "score": 0.732623,
+          "metadata": {
+            "report": "ts2024",
+            "page": 50,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "size": 500,
+            "document_id": "ts2024",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "strategy_chunker": "fixed",
+            "chars": 3292,
+            "overlap": 50,
+            "year": 2024
+          },
+          "text": "s become healthier and more active if there are more types of investors who react differently to specific economic or market events. 2.1. Public pension fund: the Viet Nam Social Security Fund The fund (VSS) is the largest institutional investor in Viet Nam — currently managing a portfolio equivalent to 10 percent of GDP. Funds under VSS management are estimated at VND 1,130 trillion (US$44 billion) and expected to grow to 15 percent over the next few decades. VSS currently covers 32 percent of "
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "ts2024:p54:c1:6820f9b66f",
+          "score": 0.746766,
+          "metadata": {
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "heading": "2.4. Private pension funds",
+            "page": 54,
+            "max_size": 1000,
+            "report": "ts2024",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "document_id": "ts2024",
+            "strategy_chunker": "paragraph",
+            "chars": 3088,
+            "year": 2024
+          },
+          "text": "2.4. Private pension funds. 2.5. Domestic individual investors Individual investors in Viet Nam have been significant contributors to capital markets, even during the COVID-19 pandemic. During 2020–21, the number of local investor accounts grew significantly, from 2.7 million in December 2020 to 4.3 million at the end of 2021. By the end of 2023, the total number hit 7.1 million, accounting for 7.5 percent of the population. 27 Active participation by individual investors is a positive market factor as they provide liquidity and a continuous price signal. However, if the market is highly dominated by individual investors, it tends to be volatile due to typically shorter investment horizons and herd behavior."
+        },
+        {
+          "chunk_id": "ts2024:p40:c1:ef5fe4b281",
+          "score": 0.743099,
+          "metadata": {
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "report": "ts2024",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "heading": "",
+            "chars": 3002,
+            "page": 40,
+            "document_id": "ts2024",
+            "max_size": 1000,
+            "strategy_chunker": "paragraph",
+            "year": 2024
+          },
+          "text": "Also, recent market turbulence – which saw a significant drop in corporate bond issuances from late 2022 – exposed weaknesses in the market's foundations. Savings function: The total amount of savings is still low, limiting the amount available for long-term investments. In recent years, the number of securities accounts held by individuals has increased, but the total size of Viet Nam's institutional investors remains smaller than most regional peers at 19 percent of GDP (Figure 2.3). This underlines the untapped potential of Viet Nam's capital markets, limiting the provision of long-term financing. Of the existing domestic institutional investors, few invest in the corporate sector. Pricing function: While there is an increasing volume of transactions and pricing data, significant gaps remain."
+        },
+        {
+          "chunk_id": "ts2024:p60:c5:28aca23cb9",
+          "score": 0.720754,
+          "metadata": {
+            "year": 2024,
+            "heading": "Towards modern capital markets to unlock growth for Viet Nam",
+            "page": 60,
+            "report": "ts2024",
+            "chars": 3758,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "document_id": "ts2024",
+            "max_size": 1000,
+            "strategy_chunker": "paragraph",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f"
+          },
+          "text": "Towards modern capital markets to unlock growth for Viet Nam. 34 Assuming a gradual diversification into corporate securities of up to 25 percent, with VSS investable assets growing consistently with past growth trends, reaching an aggregate AUM of US$80 billion in 2030. 35 Assuming a reallocation of one-fifth of life insurance investment into corporate securities. 36 Assuming that the investment fund industry reaches 6 percent to GDP and the private pension funds cover an additional 1 percent of total workers. 37 Continued reforms, such as addressing the FOL issues and successful equitization or IPOs of large companies, will likely increase Viet Nam's weight in the EM indices, leading to further reallocation of global investors' portfolio into Viet Nam. Furthermore, a healthy global investment environment would ensure a persistent growth in the assets under management of global investors investing in emerging markets."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "ts2024:p54:c1:6820f9b66f",
+          "score": 0.746766,
+          "metadata": {
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "heading": "2.4. Private pension funds",
+            "page": 54,
+            "chars": 3088,
+            "document_id": "ts2024",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "max_size": 1000,
+            "year": 2024,
+            "strategy_chunker": "paragraph",
+            "report": "ts2024"
+          },
+          "text": "2.4. Private pension funds. 2.5. Domestic individual investors Individual investors in Viet Nam have been significant contributors to capital markets, even during the COVID-19 pandemic. During 2020–21, the number of local investor accounts grew significantly, from 2.7 million in December 2020 to 4.3 million at the end of 2021. By the end of 2023, the total number hit 7.1 million, accounting for 7.5 percent of the population. 27 Active participation by individual investors is a positive market factor as they provide liquidity and a continuous price signal. However, if the market is highly dominated by individual investors, it tends to be volatile due to typically shorter investment horizons and herd behavior."
+        },
+        {
+          "chunk_id": "ts2024:p40:c1:ef5fe4b281",
+          "score": 0.743099,
+          "metadata": {
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "year": 2024,
+            "max_size": 1000,
+            "page": 40,
+            "report": "ts2024",
+            "heading": "",
+            "chars": 3002,
+            "document_id": "ts2024",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "strategy_chunker": "paragraph"
+          },
+          "text": "Also, recent market turbulence – which saw a significant drop in corporate bond issuances from late 2022 – exposed weaknesses in the market's foundations. Savings function: The total amount of savings is still low, limiting the amount available for long-term investments. In recent years, the number of securities accounts held by individuals has increased, but the total size of Viet Nam's institutional investors remains smaller than most regional peers at 19 percent of GDP (Figure 2.3). This underlines the untapped potential of Viet Nam's capital markets, limiting the provision of long-term financing. Of the existing domestic institutional investors, few invest in the corporate sector. Pricing function: While there is an increasing volume of transactions and pricing data, significant gaps remain."
+        },
+        {
+          "chunk_id": "ts2024:p60:c5:28aca23cb9",
+          "score": 0.720754,
+          "metadata": {
+            "heading": "Towards modern capital markets to unlock growth for Viet Nam",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "report": "ts2024",
+            "strategy_chunker": "paragraph",
+            "page": 60,
+            "document_id": "ts2024",
+            "year": 2024,
+            "chars": 3758,
+            "max_size": 1000,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets"
+          },
+          "text": "Towards modern capital markets to unlock growth for Viet Nam. 34 Assuming a gradual diversification into corporate securities of up to 25 percent, with VSS investable assets growing consistently with past growth trends, reaching an aggregate AUM of US$80 billion in 2030. 35 Assuming a reallocation of one-fifth of life insurance investment into corporate securities. 36 Assuming that the investment fund industry reaches 6 percent to GDP and the private pension funds cover an additional 1 percent of total workers. 37 Continued reforms, such as addressing the FOL issues and successful equitization or IPOs of large companies, will likely increase Viet Nam's weight in the EM indices, leading to further reallocation of global investors' portfolio into Viet Nam. Furthermore, a healthy global investment environment would ensure a persistent growth in the assets under management of global investors investing in emerging markets."
+        }
+      ]
+    }
+  },
+  {
+    "question_id": "q20",
+    "question": "What level did Vietnam's Industrial Production Index reach in June 2024?",
+    "expected_answer": "166, up 14.3 percent (y/y)",
+    "evidence_quote": "the Industrial Production Index (IPI) reaching 166 (+14.3 percent (y/y))",
+    "gold_pages": [
+      {
+        "document_id": "ts2024",
+        "page": 23
+      }
+    ],
+    "filter": null,
+    "results": {
+      "A": [
+        {
+          "chunk_id": "ts2024:p23:c0:2232346fc9",
+          "score": 0.785216,
+          "metadata": {
+            "page": 23,
+            "strategy_chunker": "fixed",
+            "report": "ts2024",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "year": 2024,
+            "size": 500,
+            "document_id": "ts2024",
+            "chars": 2082,
+            "overlap": 50
+          },
+          "text": "23 TAKING STOCK AUGUST 2024 REACHING NEW HEIGHTS IN CAPITAL MARKETS Growth in manufacturing output outstripped employment growth, leading to productivity gains Industrial output bounced back from a low base, driven by growth in electronics, petroleum, and minerals production. Manufacturing in Viet Nam was robust in the first half of 2024, and particularly in June with the Industrial Production Index (IPI) reaching 166 (+14.3 percent (y/y)). The Purchasing Managers Index (PMI) also rose sharply, "
+        },
+        {
+          "chunk_id": "ts2023:p22:c8:c54c792189",
+          "score": 0.714737,
+          "metadata": {
+            "report": "ts2023",
+            "title": "Taking Stock, August 2023: Making Public Investment Work for Growth",
+            "source": "https://openknowledge.worldbank.org/entities/publication/6f97a3f6-15a9-4301-877b-c65d3f951768",
+            "chars": 4059,
+            "year": 2023,
+            "overlap": 50,
+            "document_id": "ts2023",
+            "page": 22,
+            "strategy_chunker": "fixed",
+            "size": 500
+          },
+          "text": "), contributing 3 percentage points to total investment. Its share of total investment inched up from 20.9 percent in 2022 to 22.1 percent in the first semester of 2023. 27 S&P GLOBAL, Vietnam Manufacturing PMI, July 3, 2023. \"Sustained drop in new orders amid demand weakness\" https://www.pmi.spglobal. com/Public/Home/PressRelease/1abc42d09ef5440c81d425f21bd38393 28 Based on reports by Electricity of Vietnam (EVN) and National Load Dispatch Center (NLDC)."
+        },
+        {
+          "chunk_id": "ts2024:p24:c0:90ee4a7afa",
+          "score": 0.710878,
+          "metadata": {
+            "chars": 2662,
+            "page": 24,
+            "size": 500,
+            "year": 2024,
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "overlap": 50,
+            "strategy_chunker": "fixed",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "report": "ts2024",
+            "document_id": "ts2024"
+          },
+          "text": "24 TAKING STOCK AUGUST 2024 REACHING NEW HEIGHTS IN CAPITAL MARKETS Figure 1.10. Manufacturing production rebounded… Manufacturing PMI 40 50 60 Viet Nam Global ASEAN Jun-24 Jun-21 Dec-21 Dec-20 Dec-23 Jun-22 Dec-22 Jun-20 Jun-23 60 50 40 Viet Nam Global Asean Figure 1.11. …driven by electronics, petroleum, and mineral products IPI by sector (2015=100) Jun-22 Jun-23 Jun-23 IP index June-24 50 100 150 200 250 300 Petroleum Electronics Printing Metal Products Basic Metals Nonmetal Minerals Footwear"
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "ts2024:p23:c1:272732a975",
+          "score": 0.769313,
+          "metadata": {
+            "chars": 2082,
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "report": "ts2024",
+            "strategy_chunker": "paragraph",
+            "year": 2024,
+            "page": 23,
+            "heading": "productivity gains",
+            "max_size": 1000,
+            "document_id": "ts2024"
+          },
+          "text": "productivity gains. Industrial output bounced back from a low base, driven by growth in electronics, petroleum, and minerals production. Manufacturing in Viet Nam was robust in the first half of 2024, and particularly in June with the Industrial Production Index (IPI) reaching 166 (+14.3 percent (y/y)). The Purchasing Managers Index (PMI) also rose sharply, touching 555 - its highest level since June 2022 - well above the ASEAN average, reflecting faster growth of manufacturing orders than in the region or globally. Manufacturing production improvements were driven by the electronics sector (+39pp (y/y)) increase in the IPI in June 2024), petroleum (+34pp) and metal products (+45pp). Footwear and textiles production also climbed from a low base (Figures 1.10 and 1.11). 5 The PMI is an indicator of manufacturing orders based on surveys of manufacturing firms' purchasing managers. The IPI is an index of manufacturing production capacity based on the level of industrial output."
+        },
+        {
+          "chunk_id": "ts2024:p24:c0:90ee4a7afa",
+          "score": 0.739088,
+          "metadata": {
+            "document_id": "ts2024",
+            "strategy_chunker": "paragraph",
+            "report": "ts2024",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "year": 2024,
+            "heading": "",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "chars": 2662,
+            "page": 24,
+            "max_size": 1000
+          },
+          "text": "24 TAKING STOCK AUGUST 2024 REACHING NEW HEIGHTS IN CAPITAL MARKETS Figure 1.10. Manufacturing production 40 Viet Nam Global Asean Figure 1.11. …driven by electronics, petroleum, and mineral products IPI by sector (2015=100) Jun-22 Jun-23 Jun-23 IP index June-24 50 Source: S&P Global and World Bank staff calculations Note: a PMI above 50 suggests manufacturing expansion. A PMI below 50 suggests a contraction in manufacturing"
+        },
+        {
+          "chunk_id": "ts2024:p20:c0:16b1f0a0bb",
+          "score": 0.693326,
+          "metadata": {
+            "chars": 2603,
+            "strategy_chunker": "paragraph",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "max_size": 1000,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "document_id": "ts2024",
+            "page": 20,
+            "heading": "",
+            "report": "ts2024",
+            "year": 2024
+          },
+          "text": "20 TAKING STOCK AUGUST 2024 REACHING NEW HEIGHTS IN CAPITAL MARKETS Growth accelerated in the first half of 2024 Viet Nam's GDP grew by 6.4 percent (y/y) in H1-2024, after moderate 5 percent growth in 2023, driven by a rebound in manufacturing exports as well as higher consumption and investment. Merchandise trade was more robust than anticipated in H1-2024, fueled by stronger demand from United States consumers, with exports and imports growing at 16.9 and 17 percent (y/y), respectively. While the net export contribution to GDP remains modest, expanding trade was accompanied by higher industrial production and employment – leading to an uptick in investment and consumption growth of 6.7 and 5.8 percent (y/y) in H1-2024, respectively (Figure 1.1). I. Recent Economic Developments Driven by the rebound in external demand, industrial production and exportoriented services recovered On the supply side, GDP growth was led by increased manufacturing, export-oriented services, and tourism."
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "ts2024:p23:c1:272732a975",
+          "score": 0.769313,
+          "metadata": {
+            "heading": "productivity gains",
+            "document_id": "ts2024",
+            "year": 2024,
+            "page": 23,
+            "strategy_chunker": "paragraph",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "report": "ts2024",
+            "max_size": 1000,
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "chars": 2082
+          },
+          "text": "productivity gains. Industrial output bounced back from a low base, driven by growth in electronics, petroleum, and minerals production. Manufacturing in Viet Nam was robust in the first half of 2024, and particularly in June with the Industrial Production Index (IPI) reaching 166 (+14.3 percent (y/y)). The Purchasing Managers Index (PMI) also rose sharply, touching 555 - its highest level since June 2022 - well above the ASEAN average, reflecting faster growth of manufacturing orders than in the region or globally. Manufacturing production improvements were driven by the electronics sector (+39pp (y/y)) increase in the IPI in June 2024), petroleum (+34pp) and metal products (+45pp). Footwear and textiles production also climbed from a low base (Figures 1.10 and 1.11). 5 The PMI is an indicator of manufacturing orders based on surveys of manufacturing firms' purchasing managers. The IPI is an index of manufacturing production capacity based on the level of industrial output."
+        },
+        {
+          "chunk_id": "ts2024:p24:c0:90ee4a7afa",
+          "score": 0.739088,
+          "metadata": {
+            "strategy_chunker": "paragraph",
+            "report": "ts2024",
+            "heading": "",
+            "document_id": "ts2024",
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "year": 2024,
+            "max_size": 1000,
+            "page": 24,
+            "chars": 2662
+          },
+          "text": "24 TAKING STOCK AUGUST 2024 REACHING NEW HEIGHTS IN CAPITAL MARKETS Figure 1.10. Manufacturing production 40 Viet Nam Global Asean Figure 1.11. …driven by electronics, petroleum, and mineral products IPI by sector (2015=100) Jun-22 Jun-23 Jun-23 IP index June-24 50 Source: S&P Global and World Bank staff calculations Note: a PMI above 50 suggests manufacturing expansion. A PMI below 50 suggests a contraction in manufacturing"
+        },
+        {
+          "chunk_id": "ts2024:p20:c0:16b1f0a0bb",
+          "score": 0.693326,
+          "metadata": {
+            "report": "ts2024",
+            "max_size": 1000,
+            "page": 20,
+            "chars": 2603,
+            "year": 2024,
+            "source": "https://openknowledge.worldbank.org/entities/publication/dcadbac5-a61d-4856-a789-9393491bc22f",
+            "title": "Taking Stock August 2024: Reaching New Heights in Capital Markets",
+            "strategy_chunker": "paragraph",
+            "document_id": "ts2024",
+            "heading": ""
+          },
+          "text": "20 TAKING STOCK AUGUST 2024 REACHING NEW HEIGHTS IN CAPITAL MARKETS Growth accelerated in the first half of 2024 Viet Nam's GDP grew by 6.4 percent (y/y) in H1-2024, after moderate 5 percent growth in 2023, driven by a rebound in manufacturing exports as well as higher consumption and investment. Merchandise trade was more robust than anticipated in H1-2024, fueled by stronger demand from United States consumers, with exports and imports growing at 16.9 and 17 percent (y/y), respectively. While the net export contribution to GDP remains modest, expanding trade was accompanied by higher industrial production and employment – leading to an uptick in investment and consumption growth of 6.7 and 5.8 percent (y/y) in H1-2024, respectively (Figure 1.1). I. Recent Economic Developments Driven by the rebound in external demand, industrial production and exportoriented services recovered On the supply side, GDP growth was led by increased manufacturing, export-oriented services, and tourism."
+        }
+      ]
+    }
+  }
+]

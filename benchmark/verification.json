@@ -1,0 +1,156 @@
+{
+  "status": "all evidence verified on gold pages",
+  "questions": 20,
+  "dev": 15,
+  "test": 5,
+  "filter_questions": 4,
+  "filter_in_test": 1,
+  "types": {
+    "dien_dat_lai": 3,
+    "dieu_kien": 3,
+    "truc_tiep": 10,
+    "filter": 4
+  },
+  "gold_locations_per_question": {
+    "q01": [
+      {
+        "document_id": "ts2023",
+        "page": 11
+      }
+    ],
+    "q02": [
+      {
+        "document_id": "ts2023",
+        "page": 11
+      },
+      {
+        "document_id": "ts2023",
+        "page": 19
+      }
+    ],
+    "q03": [
+      {
+        "document_id": "ts2023",
+        "page": 11
+      }
+    ],
+    "q04": [
+      {
+        "document_id": "ts2023",
+        "page": 11
+      }
+    ],
+    "q05": [
+      {
+        "document_id": "ts2023",
+        "page": 11
+      },
+      {
+        "document_id": "ts2023",
+        "page": 19
+      }
+    ],
+    "q06": [
+      {
+        "document_id": "ts2023",
+        "page": 12
+      }
+    ],
+    "q07": [
+      {
+        "document_id": "ts2023",
+        "page": 12
+      }
+    ],
+    "q08": [
+      {
+        "page": 32,
+        "document_id": "ts2023"
+      }
+    ],
+    "q09": [
+      {
+        "document_id": "ts2023",
+        "page": 41
+      }
+    ],
+    "q10": [
+      {
+        "page": 39,
+        "document_id": "ts2023"
+      }
+    ],
+    "q11": [
+      {
+        "document_id": "ts2024",
+        "page": 13
+      }
+    ],
+    "q12": [
+      {
+        "page": 15,
+        "document_id": "ts2024"
+      }
+    ],
+    "q13": [
+      {
+        "document_id": "ts2023",
+        "page": 13
+      },
+      {
+        "page": 32,
+        "document_id": "ts2023"
+      }
+    ],
+    "q14": [
+      {
+        "document_id": "ts2024",
+        "page": 16
+      }
+    ],
+    "q15": [
+      {
+        "document_id": "ts2024",
+        "page": 13
+      }
+    ],
+    "q16": [
+      {
+        "document_id": "ts2023",
+        "page": 13
+      },
+      {
+        "page": 32,
+        "document_id": "ts2023"
+      }
+    ],
+    "q17": [
+      {
+        "page": 15,
+        "document_id": "ts2024"
+      },
+      {
+        "document_id": "ts2024",
+        "page": 31
+      }
+    ],
+    "q18": [
+      {
+        "document_id": "ts2024",
+        "page": 14
+      }
+    ],
+    "q19": [
+      {
+        "document_id": "ts2024",
+        "page": 17
+      }
+    ],
+    "q20": [
+      {
+        "document_id": "ts2024",
+        "page": 23
+      }
+    ]
+  }
+}

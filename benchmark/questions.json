@@ -1,0 +1,381 @@
+{
+  "corpus": "World Bank Taking Stock August 2023 (ts2023) + August 2024 (ts2024)",
+  "split_rule": "15 dev / 5 test split fixed BEFORE any retrieval run; test never used for tuning",
+  "notes": "Filter questions rely on the trusted metadata field `report` (ts2023/ts2024). The two reports give different values for overlapping indicators (e.g. 2024 GDP growth: 5.5% forecast in 2023 vs 6.1% forecast in 2024), so filters are meaningful, not decorative. Filter values are assumed to be provided by the user/context before retrieval, never inferred from the gold answer.",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "What was Vietnam's real GDP growth in the first half of 2023?",
+      "expected_answer": "3.7 percent (y/y), down from 6.4 percent in H1-2022",
+      "gold_source_id": "ts2023",
+      "gold_page": 11,
+      "evidence_quote": "real GDP growth slowed to 3.7 percent year-on-year (y/y) during the first half of 2023",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "By how much did Vietnam's exports contract in the first half of 2023?",
+      "expected_answer": "12 percent (y/y)",
+      "gold_source_id": "ts2023",
+      "gold_page": 11,
+      "evidence_quote": "exports contracting by 12 percent (y/y) in the first half of 2023",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 11
+        },
+        {
+          "document_id": "ts2023",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "What was global GDP growth projected to be in 2023, according to the report?",
+      "expected_answer": "A decline to 2.1 percent in 2023, from 3.1 percent in 2022",
+      "gold_source_id": "ts2023",
+      "gold_page": 11,
+      "evidence_quote": "Global GDP growth is projected to decline to 2.1 percent in 2023 from 3.1 percent in 2022",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "type": "dieu_kien",
+      "split": "dev",
+      "question": "What disruption hit northern Vietnam in May and June 2023, and what was the estimated cost to the economy?",
+      "expected_answer": "Recurrent power outages; losses estimated at 0.3 percent of GDP",
+      "gold_source_id": "ts2023",
+      "gold_page": 11,
+      "evidence_quote": "recurrent power outages which affected northern Vietnam in May and June 2023 disrupted economic activities with losses estimated at 0.3 percent of GDP",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "type": "dien_dat_lai",
+      "split": "dev",
+      "question": "Why did the fall in external demand weigh so heavily on Vietnam's overall GDP in 2023?",
+      "expected_answer": "Because the export sector is estimated to account for 50 percent of Vietnam's GDP",
+      "gold_source_id": "ts2023",
+      "gold_page": 11,
+      "evidence_quote": "the export sector, which is estimated to account for 50 percent of Vietnam's GDP",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 11
+        },
+        {
+          "document_id": "ts2023",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "What share of firms reported a revenue reduction of at least 20 percent in the first four months of 2023?",
+      "expected_answer": "60.1 percent of firms",
+      "gold_source_id": "ts2023",
+      "gold_page": 12,
+      "evidence_quote": "60.1 percent of firms reported a reduction in revenue of at least 20 percent during the first four months of 2023",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "What was the total level of Vietnam's foreign reserves at the end of the first quarter of 2023, and how many months of imports did it cover?",
+      "expected_answer": "US$88.7 billion, equivalent to 3.3 months of imports",
+      "gold_source_id": "ts2023",
+      "gold_page": 12,
+      "evidence_quote": "bringing the total to US$88.7 billion, equivalent to 3.3 months of imports",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "What was Vietnam's public and publicly guaranteed (PPG) debt estimated at for 2022, and what ceiling does the National Assembly mandate?",
+      "expected_answer": "35.7 percent of GDP, well below the mandated 60 percent threshold",
+      "gold_source_id": "ts2023",
+      "gold_page": 32,
+      "evidence_quote": "PPG debt is estimated at 35.7 percent for 2022",
+      "alternative_evidence": [
+        "well below the mandated threshold of 60 percent set by the National Assembly"
+      ],
+      "filter": null,
+      "gold_pages": [
+        {
+          "page": 32,
+          "document_id": "ts2023"
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "type": "dieu_kien",
+      "split": "dev",
+      "question": "By how much could the output efficiency of Vietnam's public investment increase, and under what condition?",
+      "expected_answer": "23 percent higher, if the efficiency of public investment management reached the global frontier (IMF 2018 estimate)",
+      "gold_source_id": "ts2023",
+      "gold_page": 41,
+      "evidence_quote": "the output efficiency of public investment for Vietnam could be 23 percent higher if the efficiency of public investment management reached the global frontier",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 41
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "dien_dat_lai",
+      "split": "dev",
+      "question": "How did Vietnam's public investment level evolve between 2011 and 2022?",
+      "expected_answer": "It declined: the share of public investment in total government expenditure fell from 27 to 20 percent, and in GDP from 8 to 6 percent",
+      "gold_source_id": "ts2023",
+      "gold_page": 39,
+      "evidence_quote": "the share of public investment in total government expenditures and GDP fell from 27 to 20 percent, and 8 to 6 percent, respectively",
+      "filter": null,
+      "gold_pages": [
+        {
+          "page": 39,
+          "document_id": "ts2023"
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "How much did Vietnam's GDP grow in the first half of 2024?",
+      "expected_answer": "6.4 percent (y/y), after 5 percent growth in 2023",
+      "gold_source_id": "ts2024",
+      "gold_page": 13,
+      "evidence_quote": "Viet Nam's GDP grew by 6.4 percent (y/y) in H1-2024 after a moderate 5 percent growth in 2023",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2024",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "truc_tiep",
+      "split": "dev",
+      "question": "How much in corporate bonds is estimated to mature in the second half of 2024, and what share are real estate bonds?",
+      "expected_answer": "VND 139.8 trillion (US$5.6 billion), real estate bonds comprising 42 percent",
+      "gold_source_id": "ts2024",
+      "gold_page": 15,
+      "evidence_quote": "bonds maturing in the second half of 2024 are estimated at VND 139.8 trillion (US$5.6 billion), with real estate bonds comprising 42 percent",
+      "filter": null,
+      "gold_pages": [
+        {
+          "page": 15,
+          "document_id": "ts2024"
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "filter",
+      "split": "dev",
+      "question": "According to the August 2023 Taking Stock report, what GDP growth rate was Vietnam projected to recover to in 2024?",
+      "expected_answer": "5.5 percent in 2024",
+      "gold_source_id": "ts2023",
+      "gold_page": 32,
+      "evidence_quote": "Vietnam's economy is expected to grow by 4.7 percent in 2023, with a slow projected recovery to 5.5 percent in 2024 and to 6.0 percent in 2025",
+      "filter": {
+        "report": "ts2023"
+      },
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 13
+        },
+        {
+          "page": 32,
+          "document_id": "ts2023"
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "filter",
+      "split": "dev",
+      "question": "According to the August 2024 Taking Stock report, what is the GDP growth forecast for Vietnam in 2024?",
+      "expected_answer": "6.1 percent in 2024, rising to 6.5 percent in 2025-26",
+      "gold_source_id": "ts2024",
+      "gold_page": 16,
+      "evidence_quote": "Viet Nam's economy is forecast to grow by 6.1 percent in 2024, rising to 6.5 percent in 2025",
+      "filter": {
+        "report": "ts2024"
+      },
+      "gold_pages": [
+        {
+          "document_id": "ts2024",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "filter",
+      "split": "dev",
+      "question": "In the August 2024 report, what was Vietnam's real GDP growth for the full year 2023?",
+      "expected_answer": "A moderate 5 percent",
+      "gold_source_id": "ts2024",
+      "gold_page": 13,
+      "evidence_quote": "after a moderate 5 percent growth in 2023",
+      "alternative_evidence": [
+        "Viet Nam's GDP grew by 6.4 percent (y/y) in H1-2024 after a moderate 5 percent growth in 2023"
+      ],
+      "filter": {
+        "report": "ts2024"
+      },
+      "gold_pages": [
+        {
+          "document_id": "ts2024",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "filter",
+      "split": "test",
+      "question": "According to the August 2023 Taking Stock report, what GDP growth rate is projected for Vietnam in 2025?",
+      "expected_answer": "6.0 percent in 2025",
+      "gold_source_id": "ts2023",
+      "gold_page": 32,
+      "evidence_quote": "with a slow projected recovery to 5.5 percent in 2024 and to 6.0 percent in 2025",
+      "filter": {
+        "report": "ts2023"
+      },
+      "gold_pages": [
+        {
+          "document_id": "ts2023",
+          "page": 13
+        },
+        {
+          "page": 32,
+          "document_id": "ts2023"
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "dieu_kien",
+      "split": "test",
+      "question": "Under a broader definition, how high could Vietnam's total problem loans be, and what must be included to reach that figure?",
+      "expected_answer": "As high as 7.9 percent, if restructured loans and Viet Nam Asset Management Company (VAMC) debts are included",
+      "gold_source_id": "ts2024",
+      "gold_page": 15,
+      "evidence_quote": "total problem loans could be as high as 7.9 percent if restructured loans and Viet Nam Asset Management Company (VAMC) debts are included",
+      "filter": null,
+      "gold_pages": [
+        {
+          "page": 15,
+          "document_id": "ts2024"
+        },
+        {
+          "document_id": "ts2024",
+          "page": 31
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "dien_dat_lai",
+      "split": "test",
+      "question": "How did the VND/US$ market exchange rate move between December 2023 and the end of June 2024?",
+      "expected_answer": "It weakened from VND 24,258 in December 2023 to VND 25,334 by end-June 2024",
+      "gold_source_id": "ts2024",
+      "gold_page": 14,
+      "evidence_quote": "the VND/US$ exchange rate weakened from VND 24,258 in December 2023 to VND 25,334 by the end of June 2024 on the market rate",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2024",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "truc_tiep",
+      "split": "test",
+      "question": "How large are the savings mobilized through institutional investors in Vietnam, as a share of GDP?",
+      "expected_answer": "Only 19 percent of GDP, smaller than most regional peers",
+      "gold_source_id": "ts2024",
+      "gold_page": 17,
+      "evidence_quote": "the total amount of savings mobilized through institutional investors is still low, only 19 percent of GDP",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2024",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "truc_tiep",
+      "split": "test",
+      "question": "What level did Vietnam's Industrial Production Index reach in June 2024?",
+      "expected_answer": "166, up 14.3 percent (y/y)",
+      "gold_source_id": "ts2024",
+      "gold_page": 23,
+      "evidence_quote": "the Industrial Production Index (IPI) reaching 166 (+14.3 percent (y/y))",
+      "filter": null,
+      "gold_pages": [
+        {
+          "document_id": "ts2024",
+          "page": 23
+        }
+      ]
+    }
+  ]
+}

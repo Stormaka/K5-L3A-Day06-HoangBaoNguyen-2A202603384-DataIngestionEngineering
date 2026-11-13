@@ -1,0 +1,13 @@
+{
+  "counts_before_reingest": {
+    "A": 683,
+    "B": 379,
+    "C": 379
+  },
+  "counts_after_reingest": {
+    "A": 683,
+    "B": 379,
+    "C": 379
+  },
+  "no_duplicates": true
+}

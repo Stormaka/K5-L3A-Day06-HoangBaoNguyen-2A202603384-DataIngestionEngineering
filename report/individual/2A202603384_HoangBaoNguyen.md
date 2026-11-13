@@ -1,0 +1,48 @@
+# Báo cáo cá nhân — Day 6
+
+> Học viên: **Hoàng Bảo Nguyên** — MSSV: **2A202603384** — Lớp: **L3A**
+> Ngày chạy thí nghiệm: 2026-11-13 · Repo bài nộp: https://github.com/Stormaka/K5-L3A-Day06-HoangBaoNguyen-2A202603384-DataIngestionEngineering
+
+## Dữ liệu và pipeline
+- **Chủ đề, nguồn/quyền, số trang và quy tắc tính trang:** Kinh tế Việt Nam — hai báo cáo *Taking Stock* của World Bank: bản August 2023 "Making Public Investment Work for Growth" (DOI 10.1596/40169) và bản August 2024 "Reaching New Heights in Capital Markets" (DOI 10.1596/42084), tải từ [World Bank Open Knowledge Repository](https://openknowledge.worldbank.org), giấy phép **CC BY-NC 3.0 IGO** (được phép tái phân phối phi thương mại có ghi nguồn; repo phục vụ mục đích học tập). Tổng **116 trang nội dung** (ts2023: 55, ts2024: 61; 139.695 + 144.392 ký tự) — vượt ngưỡng 30 trang. Quy tắc tính trang: trang PDF vật lý (đánh số 1-based) có ≥10 ký tự sau chuẩn hóa; bìa/trang trắng/trang chỉ hình bị loại tự động và ghi log; không nhân bản. Chi tiết trong `data/manifest.json` (sinh bằng `python scripts/build_manifest.py`).
+- **Chuẩn hóa, lỗi và giới hạn:** NFC Unicode, bỏ ligature (ﬁ→fi), chuẩn hóa dấu ngoặc, tách dòng soft-hyphen, gộp khoảng trắng; tách đoạn theo heuristic "dòng ngắn = ranh giới". 6 trang lỗi/trống được ghi trong `results/extraction_issues.json` (3 mỗi báo cáo — mostly cover/section-divider). Giới hạn: PDF có bảng biểu trích thành chuỗi số rời (xấu cho embedding nhưng không nằm trong gold evidence); không dùng OCR vì toàn bộ trang cần thiết đều trích được text.
+- **Embedding / store / metric / lệnh chạy / chi phí:** `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` chạy local (384 chiều, encode query/document giống nhau, L2-normalize) — **model thật, không mock**; store **Chroma 1.5.9 PersistentClient** (`results/chroma/`, cosine space, exact search trên tập nhỏ), pypdf 6.21.4, sentence-transformers 5.7.0 (chi tiết trong `results/metrics.json`). Chạy: `cd starter && python -m src.run` (sinh dữ liệu: `python scripts/build_manifest.py`, kiểm chứng: `python scripts/verify_benchmark.py`). **Chi phí: $0** (local). Thời gian: embed A 102,2s / B 59,6s; ingest A 29,9s / B 19,7s / C 23,2s; truy xuất ~0,07s/3 chiến lược cho 20 câu; toàn pipeline 374,9s (CPU).
+- **Metadata bắt buộc + trường lọc:** mỗi chunk luôn có `document_id`, `source`, `page`; bổ sung **`report`** (ts2023/ts2024) và `year` (2023/2024) làm trường lọc — giá trị lấy thẳng từ định danh tài liệu trong manifest (đáng tin, không suy đoán), chọn vì hai báo cáo trùng chủ đề nhưng số liệu trùng năm khác nhau (vd. dự báo GDP 2024: 5,5% trong báo cáo 2023 vs 6,1% trong báo cáo 2024) nên lọc theo báo cáo là hữu ích thật. Thêm `title` và `heading` (heading được phát hiện từ layout). Kiểu và nguồn từng trường ghi trong manifest + `starter/src/store.py`.
+
+## Cấu hình và benchmark
+- **A / B / C (tham số, khác biệt duy nhất B–C):**
+  - **A** — cửa sổ cố định **500 ký tự, overlap 50**, giới hạn trong trang (không lọc).
+  - **B** — chunk theo đoạn có ý thức cấu trúc: gộp đoạn, giới hạn **1000 ký tự**, tách câu khi quá dài, gộp đuôi <150 ký tự, giữ heading làm prefix ngữ cảnh (không lọc).
+  - **C** — **chunk y hệt B** (lưu collection riêng); khác biệt duy nhất: khi câu hỏi có filter (do người dùng/ngữ cảnh cung cấp trước), truy xuất thêm `where report == <giá trị>`; câu không filter thì chạy không lọc và ghi rõ.
+- **≥20 câu:** 20 câu (10 trực tiếp, 3 diễn đạt lại, 3 điều kiện/ngoại lệ, 4 filter), tách **15 dev / 5 test** và khóa trước khi chạy bất kỳ thí nghiệm nào; 4 câu filter (3 dev, 1 test — q16). Mỗi câu có `expected_answer`, `gold_page`, `evidence_quote`; `scripts/verify_benchmark.py` kiểm chứng **20/20 quote nằm đúng trang gold** trước khi chạy (đồng thời tự ghi mọi trang khác chứa quote thành gold thay thế hợp lệ — `benchmark/verification.json`). Filter dựa trên metadata thật (`report`), giá trị tồn tại và kiểm chứng được; không đưa đáp án/gold vào query.
+- **Tiêu chí chọn chiến lược (chốt trước khi xem test):** (1) Evidence Hit@3 trên dev → (2) Hit@1 trên dev → (3) grounding test → (4) tài nguyên (số chunk, thời gian). Ghi trong `artifacts/experiment_log.csv` trước khi mở kết quả test.
+
+## Kết quả
+
+| Strategy | Split | Hit@1 (n/N) | Evidence Hit@3 (n/N) | Chunk count | Thời gian | Chi phí |
+|---|---|---|---|---|---|---|
+| A | dev | 6/15 | 7/15 | 683 | embed 102s + ingest 30s | $0 |
+| A | test | 2/5 | 3/5 | — | ~0,03s/search | $0 |
+| B | dev | 6/15 | 11/15 | 379 | embed 60s + ingest 20s | $0 |
+| B | test | 1/5 | 1/5 | — | ~0,02s/search | $0 |
+| C | dev | 7/15 | 11/15 | 379 (thừa hưởng B) | ingest 23s | $0 |
+| C | test | 1/5 | 1/5 | — | ~0,02s/search | $0 |
+
+| Strategy | Coherence trung bình /2 (n) | Metadata đủ và đúng (n/N) | Filter tuân thủ (n/N hoặc N/A) | Grounding 0/1/2 (số câu) và trung bình /2 |
+|---|---|---|---|---|
+| A | 1,21 (10 vị trí) | 15/15 bản ghi test | N/A (A không lọc) | 0/2/3 — 1,60 |
+| B | 1,59 (10 vị trí) | 15/15 bản ghi test | N/A (B không lọc) | 1/2/2 — 1,20 |
+| C | 1,59 (= B theo thiết kế) | 15/15 bản ghi test | **3/3 bản ghi** trên câu filter test q16 | 2/1/2 — 1,00 |
+
+- Nạp lại cùng corpus: **không nhân đôi** (683/379/379 trước và sau khi re-ingest — `results/idempotence_check.json`); chunk ID deterministic + xóa chunk lỗi thời khi tài liệu đổi.
+- **Đường dẫn trace/nhãn/cách chọn mẫu:** trace top-3 từng câu: `results/traces.jsonl`; nhãn thủ công: `results/coherence_labels.csv`, `results/grounding_labels.csv`, `results/metadata_audit_labels.csv`; mẫu chấm: coherence chọn **10 page ID đầu tiên theo thứ tự sắp xếp** (chốt trước khi xem điểm, theo gợi ý GUIDE) — thực tế gồm nhiều trang front-matter (bìa, mục lục, viết tắt) + 2 trang nội dung thật (p11, p12); grounding/metadata chọn **5 câu test × top-3**; dữ liệu chấm: `results/coherence_sample.json`, `results/{grounding,metadata}_audit.json`; tổng hợp `results/manual_summary.json`.
+
+## Phân tích và kết luận
+- **A–B (đổi chunking):** B thắng áp đảo Evidence Hit@3 trên dev (11/15 vs 7/15) vì đoạn nguyên vẹn giữ trọn câu evidence; A cắt evidence qua ranh giới cửa sổ. Ví dụ sai: **q18** — evidence "exchange rate weakened from VND 24,258 … to VND 25,334" (~150 ký tự) không nằm trọn trong bất kỳ cửa sổ 500/50 nào của A (top-1 đúng trang p14 nhưng thiếu số cuối); **q19** — cửa sổ p40 của A cắt ngay trước cụm "at 19 percent of GDP". Ngược lại, A thắng ở câu số liệu ngắn nằm trong cửa sổ khớp từ khóa chặt: **q13/q16** (evidence rank #2 trong A vs #14/>15 trong B) và **q17** — do chunk B dài (~700–990 ký tự) pha loãng embedding của câu hỏi ngắn. Trade-off rõ: A nhiều chunk hơn 80% (683 vs 379), embed chậm hơn 71%, coherence thấp hơn (1,21 vs 1,59 — A toàn điểm cắt giữa từ/câu, B mất điểm ở trang toàn heading bị rơi hoàn toàn: ts2023 p3).
+- **B–C (đổi filter):** C giữ nguyên Hit@3 dev (11/15), tăng Hit@1 dev (7 vs 6, sửa q15 H3→H1) và **tuân thủ filter 3/3** trên q16 (top-3 đều ts2023, đúng báo cáo được hỏi) trong khi B lẫn ts2024 (6,5% cho 2025–26 — số của báo cáo khác). Giá phải trả: với câu không có filter C ≡ B; trên đúng q16, filter thu hẹp không gian nhưng câu evidence vẫn xếp thấp (#14) nên vẫn miss — filter sửa "truy sai nguồn", không sửa "xếp hạng thấp". Grounding test C (1,00) thấp hơn A (1,60) là do C kế thừa điểm yếu xếp hạng của B trên các câu này — cẩn trọng vì n=5.
+- **Chiến lược chọn: C**, theo đúng tiêu chí đã chốt (dev Hit@3: B=C 11/15 > A 7/15 → loại A; Hit@1 dev: C 7 > B 6; cộng khả năng lọc theo báo cáo có kiểm chứng 3/3 và ít tài nguyên hơn A một nửa). Điều kiện áp dụng: corpus nhiều tài liệu trùng chủ đề/số liệu xung đột và người dùng cung cấp được phạm vi; nếu câu hỏi không biết nguồn thì C thoái về đúng B.
+- **Hạn chế:** test chỉ 5 câu (mọi khác biệt test nằm trong nhiễu mẫu nhỏ — A đang 3/5 Hit@3 nhưng không suy ra "A tốt hơn" được); nhãn coherence/grounding do **AI assistant (GLM/ZCode) chấm dưới giám sát học viên**, có rủi ro thiên lệch, người chấm là tác giả; mẫu coherence thiên về front-matter; MiniLM là model nhẹ (384d) — model lớn hơn có thể đổi kết quả A/B; đo thời gian trên máy cá nhân (CPU) không kiểm soát nhiệt/tải; Chroma trên tập nhỏ chạy exact search, chưa phản ánh hành vi ANN ở quy mô lớn.
+- **Nếu làm lại/mở rộng:** (1) tăng số câu test và cân bằng lại độ khó; (2) chunk B lai: ngoài chunk đoạn, tạo thêm "chunk nhỏ" chứa heading + câu số liệu chủ chốt để xử lý câu hỏi ngắn; (3) thử hybrid BM25 + dense (mở rộng tùy chọn của lab) vì các fail mode đều là sai xếp hạng từ vựng-gần-đúng; (4) thêm filter `year` vào câu hỏi để đo lọc thứ hai; (5) thử model embedding mạnh hơn (vd. bge-m3) để tách ảnh hưởng model khỏi chiến lược chunk.
+
+## Trung thực và sử dụng AI
+Toàn bộ số liệu trong báo cáo xuất phát từ các file kết quả do pipeline sinh ra (`results/`), không có con số nào bịa. AI (ZCode/GLM) được dùng để: viết code pipeline theo khung TODO, soạn câu hỏi benchmark (từ trang đã trích xuất), chấm nhãn thủ công dưới dạng nháp — **học viên đã và sẽ rà soát lại từng nhãn, trace và câu lệnh chạy**, và chịu trách nhiệm giải thích được toàn bộ bài làm theo RULES.md. Cách kiểm chứng: chạy lại `python -m src.run` và đối chiếu `results/metrics.json` với bảng trên.
