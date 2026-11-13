@@ -4,15 +4,17 @@ Biến tài liệu thành kho tri thức truy xuất được cho AI agent và b
 
 | 📄 Dữ liệu | 🧩 Chiến lược | 🎯 Benchmark |
 |---|---|---|
-| 116 trang nội dung (2 báo cáo World Bank, CC BY-NC 3.0 IGO) | 3 cấu hình A/B/C, mỗi cặp đổi đúng 1 yếu tố | 20 câu (15 dev / 5 test), 4 câu filter |
+| 90 trang nội dung (2 báo cáo World Bank, CC BY-NC 3.0 IGO; đã loại 26 trang cấu trúc theo quy tắc manifest) | 3 cấu hình A/B/C, mỗi cặp đổi đúng 1 yếu tố | 20 câu (15 dev / 5 test), 4 câu filter |
 
 ## Kết quả chính (số tử/mẫu, chi tiết `results/metrics.json`)
 
 | Strategy | Chunking | Dev Hit@1 | Dev Hit@3 | Test Hit@1 | Test Hit@3 | Coherence /2 | Grounding test /2 |
 |---|---|---|---|---|---|---|---|
-| A | cố định 500/50 | 6/15 | 7/15 | 2/5 | 3/5 | 1,21 | 1,60 |
-| B | theo đoạn + heading (≤1000) | 6/15 | **11/15** | 1/5 | 1/5 | **1,59** | 1,20 |
-| C | = B + filter `report` | **7/15** | **11/15** | 1/5 | 1/5 | **1,59** | 1,00 |
+| A | cố định 500/50 | 6/15 | 7/15 | 2/5 | 3/5 | 0,99 | 1,60 |
+| B | theo đoạn + heading (≤1000) | 6/15 | **11/15** | 1/5 | 1/5 | **1,77** | 1,20 |
+| C | = B + filter `report` | **7/15** | **11/15** | 1/5 | 1/5 | **1,77** | 1,00 |
+
+Coherence chấm trên mẫu 10 trang nội dung thật (quy tắc chọn mẫu khớp quy tắc nội dung của manifest; bộ nhãn mẫu ban đầu thiên front-matter được lưu lưu trữ minh bạch). Nhãn thủ công có checklist rà soát: `results/label_review_checklist.md`.
 
 **Chọn C** theo tiêu chí chốt trước khi xem test (dev Hit@3 → dev Hit@1 → grounding → tài nguyên); filter tuân thủ 3/3 trên câu filter test; nạp lại không nhân đôi; chi phí **$0** (model local). Test n=5 nên mọi khác biệt trên test chỉ mang tính minh họa.
 

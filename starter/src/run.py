@@ -67,7 +67,13 @@ def main() -> None:
 
     print("[1/6] Loading corpus ...")
     pages, manifest = _load_corpus()
-    print(f"  total content pages: {len(pages)} (OK, >= {MIN_CONTENT_PAGES})")
+    content_total = manifest.get("total_content_pages", len(pages))
+    if content_total < MIN_CONTENT_PAGES:
+        raise SystemExit(
+            f"manifest counts {content_total} content pages "
+            f"< {MIN_CONTENT_PAGES} required")
+    print(f"  extracted pages: {len(pages)} | content pages (per manifest "
+          f"rule): {content_total} (OK, >= {MIN_CONTENT_PAGES})")
 
     print("[2/6] Chunking A (fixed 500/50) and B (paragraph, max 1000) ...")
     chunks_a, chunks_b = [], []
@@ -157,7 +163,10 @@ def main() -> None:
         json.dumps(ingest_stats, indent=2, ensure_ascii=False), encoding="utf-8")
 
     print("[6/6] Exporting manual-audit samples ...")
-    _export_audit_samples(pages, questions, store, query_vectors, chunks_a, chunks_b)
+    content_ids = {(d["source_id"], p) for d in manifest["documents"]
+                   for p in d["page_ids"]}
+    _export_audit_samples(pages, questions, store, query_vectors,
+                          chunks_a, chunks_b, content_ids)
 
     print("\n=== Summary (Hit@1 | Evidence Hit@3) ===")
     for key, row in metrics["summary"].items():
@@ -168,9 +177,14 @@ def main() -> None:
           f" | cost: $0 | wall: {metrics['wall_clock_s']}s")
 
 
-def _export_audit_samples(pages, questions, store, query_vectors, chunks_a, chunks_b) -> None:
+def _export_audit_samples(pages, questions, store, query_vectors, chunks_a,
+                          chunks_b, content_page_ids=None) -> None:
     """Fixed sample sets for the manual 5-dimension assessment."""
-    # Coherence: first 10 sorted content-page IDs chosen before looking at scores.
+    # Coherence: first 10 sorted CONTENT page IDs (manifest rule: structural
+    # front/back-matter pages excluded), chosen before looking at scores.
+    if content_page_ids:
+        pages = [p for p in pages
+                 if (p.document_id, p.page) in content_page_ids]
     sample_pages = sorted(pages, key=lambda p: (p.document_id, p.page))[:10]
     by_page_a: dict[tuple, list] = {}
     by_page_b: dict[tuple, list] = {}

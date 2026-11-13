@@ -1,31 +1,31 @@
 position,strategy,score_0_2,reason
-ts2023:p1,A,2.0,"cover title + disclosure stamps intact, self-explanatory"
-ts2023:p1,B,1.0,"heading split breaks title mid-way ('PUBLIC INVESTMENT. WORK FOR...'), loses 'MAKING'"
-ts2023:p1,C,1.0,C stores B's chunks verbatim; identical by construction
-ts2023:p3,A,2.0,single complete title line chunk
-ts2023:p3,B,0.0,"NO chunk produced: all lines detected as headings, page content lost from index"
-ts2023:p3,C,0.0,C stores B's chunks verbatim; identical by construction
-ts2023:p4,A,0.67,"3 windows: mid-word start 'ies, colors', mid-sentence ends"
-ts2023:p4,B,2.0,"two complete paragraphs: address+rights, license contact"
-ts2023:p4,C,2.0,C stores B's chunks verbatim; identical by construction
-ts2023:p5,A,1.0,TOC cut mid-entry at window boundaries
-ts2023:p5,B,2.0,"TOC grouped into two logical entry blocks, complete"
-ts2023:p5,C,2.0,C stores B's chunks verbatim; identical by construction
-ts2023:p6,A,1.0,figure list cut mid-entry
-ts2023:p6,B,1.0,figure list grouped but ends mid-entry 'Figure 1.22.'; heading prefix inserted mid-list
-ts2023:p6,C,1.0,C stores B's chunks verbatim; identical by construction
-ts2023:p7,A,1.0,abbrev list cut mid-entry ('GFCF Gross')
-ts2023:p7,B,2.0,two clean abbreviation blocks
-ts2023:p7,C,2.0,C stores B's chunks verbatim; identical by construction
-ts2023:p8,A,1.5,list cut at 'Year-over-'; trailing 54-char fragment
-ts2023:p8,B,2.0,one complete abbreviation block
-ts2023:p8,C,2.0,C stores B's chunks verbatim; identical by construction
-ts2023:p9,A,1.0,name list cut mid-name; fragments lack subject
-ts2023:p9,B,2.0,two complete acknowledgement paragraphs
-ts2023:p9,C,2.0,C stores B's chunks verbatim; identical by construction
-ts2023:p11,A,0.89,"9 windows: mid-word/mid-sentence starts ('stering', 'cent (y/y)'), footnote fragment"
-ts2023:p11,B,2.0,6 chunks each = one complete paragraph with 'Recent Economic Developments.' context prefix
+ts2023:p11,A,0.89,"9 windows cut mid-word/mid-sentence ('stering', 'cent (y/y)'); footnote fragment"
+ts2023:p11,B,2.0,"6 chunks = complete paragraphs, heading prefix kept"
 ts2023:p11,C,2.0,C stores B's chunks verbatim; identical by construction
 ts2023:p12,A,1.0,10 windows mostly mid-sentence; 56-char trailing fragment
-ts2023:p12,B,1.86,7 paragraph chunks complete; one has footnote '5' text glued (scored 1)
+ts2023:p12,B,1.86,7 complete paragraphs; one has footnote '5' text glued
 ts2023:p12,C,1.86,C stores B's chunks verbatim; identical by construction
+ts2023:p13,A,1.0,9 windows all mid-sentence/mid-word starts; table fragment tail
+ts2023:p13,B,1.75,3 complete outlook/CPI paragraphs + 1 chunk mixed with garbled table data
+ts2023:p13,C,1.75,C stores B's chunks verbatim; identical by construction
+ts2023:p14,A,1.0,"9 windows mid-word starts ('ly, the financial sector', '3 percent (y/y)')"
+ts2023:p14,B,1.8,4 complete risk/fiscal paragraphs; recommendation chunk has 'z' bullets + footnote glue
+ts2023:p14,C,1.8,C stores B's chunks verbatim; identical by construction
+ts2023:p15,A,1.1,page opens with footnotes 10/11 mixed into windows; 9 of 10 windows mid-sentence
+ts2023:p15,B,1.8,complete paragraphs; first chunk contains page-leading footnote block
+ts2023:p15,C,1.8,C stores B's chunks verbatim; identical by construction
+ts2023:p16,A,1.0,10 windows mid-sentence; footnote fragment tail
+ts2023:p16,B,1.86,6 complete paragraphs; last has footnotes 15/16 glued
+ts2023:p16,C,1.86,C stores B's chunks verbatim; identical by construction
+ts2023:p17,A,0.9,10 windows mid-sentence; 88-char orphan fragment at end
+ts2023:p17,B,1.83,5 complete recommendation paragraphs; first has footnote 17 + CCDR glue
+ts2023:p17,C,1.83,C stores B's chunks verbatim; identical by construction
+ts2023:p19,A,1.0,prose windows mid-sentence; figure axis data and footnotes mixed in
+ts2023:p19,B,1.67,2 complete chapter-opening paragraphs; footnote block chunk
+ts2023:p19,C,1.67,C stores B's chunks verbatim; identical by construction
+ts2023:p20,A,1.0,starts mid-sentence ('year strong post-COVID rebound'); figure data in windows
+ts2023:p20,B,1.4,2 complete paragraphs; chunks with figure labels / footnote 21 tails score lower
+ts2023:p20,C,1.4,C stores B's chunks verbatim; identical by construction
+ts2023:p21,A,1.0,7 windows all mid-sentence/mid-word; final window is figure axis labels
+ts2023:p21,B,1.75,3 complete paragraphs; one figure-label chunk
+ts2023:p21,C,1.75,C stores B's chunks verbatim; identical by construction

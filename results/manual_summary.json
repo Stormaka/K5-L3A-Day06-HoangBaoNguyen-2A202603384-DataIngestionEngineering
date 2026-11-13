@@ -1,8 +1,8 @@
 {
   "coherence_mean": {
-    "A": 1.21,
-    "B": 1.59,
-    "C": 1.59
+    "A": 0.99,
+    "B": 1.77,
+    "C": 1.77
   },
   "grounding": {
     "A": {
@@ -35,5 +35,7 @@
     "errors": [],
     "filter_compliance_C_q16": "3/3"
   },
-  "labeler": "AI assistant (GLM via ZCode) under student supervision; positions fixed before scoring; disclose in report"
+  "labeler": "AI assistant (GLM via ZCode) under student supervision; positions fixed before scoring; disclose in report",
+  "coherence_sampling_rule": "first 10 sorted CONTENT pages (manifest rule); re-declared before scoring; initial front-matter sample archived in coherence_labels_initial_sample_archived.csv",
+  "grounding_second_pass": "15/15 labels re-derived independently from grounding_audit.json; no changes"
 }

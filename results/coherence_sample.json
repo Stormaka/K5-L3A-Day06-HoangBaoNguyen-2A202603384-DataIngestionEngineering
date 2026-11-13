@@ -1,202 +1,8 @@
 [
   {
-    "position": "ts2023:p1",
-    "page_text_excerpt": "TAKING STOCK\nAUGUST 2023\nMAKING\nPUBLIC INVESTMENT\nWORK FOR GROWTH\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized\nPublic Disclosure Authorized",
-    "A_chunks": [
-      {
-        "chunk_id": "ts2023:p1:c0:a3d5466e32",
-        "text": "TAKING STOCK AUGUST 2023 MAKING PUBLIC INVESTMENT WORK FOR GROWTH Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized"
-      }
-    ],
-    "B_chunks": [
-      {
-        "chunk_id": "ts2023:p1:c0:d946baf9d9",
-        "text": "PUBLIC INVESTMENT. WORK FOR GROWTH Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized Public Disclosure Authorized"
-      }
-    ]
-  },
-  {
-    "position": "ts2023:p3",
-    "page_text_excerpt": "TAKING STOCK\nAUGUST 2023\nMAKING\nPUBLIC INVESTMENT\nWORK FOR GROWTH",
-    "A_chunks": [
-      {
-        "chunk_id": "ts2023:p3:c0:f9c7091556",
-        "text": "TAKING STOCK AUGUST 2023 MAKING PUBLIC INVESTMENT WORK FOR GROWTH"
-      }
-    ],
-    "B_chunks": []
-  },
-  {
-    "position": "ts2023:p4",
-    "page_text_excerpt": "4\n@2023 The World Bank\n1818 H Street NW, Washington DC 20433\nTelephone: 202-473-1000; Internet: www.worldbank.org\nThis work is a product of the staff of the World Bank with external contributions. The findings, interpretations\nand conclusions expressed in this work do not necessarily reflect the views of the World Bank and its Board\nof Executive Directors. The World Bank do not guarantee the accuracy of the data included in this work. The\nboundaries, colors, denominations and other information shown on any map in this work do not imply any\njudgement on the part of the World Bank concerning the",
-    "A_chunks": [
-      {
-        "chunk_id": "ts2023:p4:c0:4a4d8bd74c",
-        "text": "4 @2023 The World Bank 1818 H Street NW, Washington DC 20433 Telephone: 202-473-1000; Internet: www.worldbank.org This work is a product of the staff of the World Bank with external contributions. The findings, interpretations and conclusions expressed in this work do not necessarily reflect the views of the World Bank and its Board of Executive Directors. The World Bank do not guarantee the accuracy of the data included in this work. The boundaries, colors, denominations and other information s"
-      },
-      {
-        "chunk_id": "ts2023:p4:c1:ea815b42de",
-        "text": "ies, colors, denominations and other information shown on any map in this work do not imply any judgement on the part of the World Bank concerning the legal status of any territory or the endorsement or acceptance of such boundaries. Nothing herein shall constitute or be considered to be a limitation upon or waiver of the privileges and immunities of the World Bank, all of which are specifically reserved. All queries on rights and licenses should be addressed to the Publishing and Knowledge Divi"
-      },
-      {
-        "chunk_id": "ts2023:p4:c2:8e1c6e7bf2",
-        "text": " be addressed to the Publishing and Knowledge Division, the World Bank, 1818 H Street NW, Washington DC, 20433, USA, Fax: 202-522-2625; email: pubrights@worldbank.org. Cover design by Le Bros, photo credit @shutterstock.com"
-      }
-    ],
-    "B_chunks": [
-      {
-        "chunk_id": "ts2023:p4:c0:bb7ca020fc",
-        "text": "Telephone: 202-473-1000; Internet: www.worldbank.org. This work is a product of the staff of the World Bank with external contributions. The findings, interpretations and conclusions expressed in this work do not necessarily reflect the views of the World Bank and its Board of Executive Directors. The World Bank do not guarantee the accuracy of the data included in this work. The boundaries, colors, denominations and other information shown on any map in this work do not imply any judgement on the part of the World Bank concerning the legal status of any territory or the endorsement or acceptance of such boundaries. Nothing herein shall constitute or be considered to be a limitation upon or waiver of the privileges and immunities of the World Bank, all of which are specifically reserved."
-      },
-      {
-        "chunk_id": "ts2023:p4:c1:2219af4261",
-        "text": "Telephone: 202-473-1000; Internet: www.worldbank.org. All queries on rights and licenses should be addressed to the Publishing and Knowledge Division, the World Bank, 1818 H Street NW, Washington DC, 20433, USA, Fax: 202-522-2625; email: pubrights@worldbank.org."
-      }
-    ]
-  },
-  {
-    "position": "ts2023:p5",
-    "page_text_excerpt": "5\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\nAbbreviations 7\nAcknowledgements 9\nOverview 10\nRecent Economic Developments, Outlook, and Risks 11\nSpecial focus: Making Public Investment Work for Growth 15\nChapter 1. Economic Developments and Prospects 18\nI. Recent Economic Developments 19\nThe global economy is facing strong headwinds 19\nVietnam's economic growth decelerated sharply 19\nBusinesses and the labor market were negatively affected 23\nThe current account surplus widened, despite a contraction in exports 25\nAs inflation fell, SBV loosened monetary policy 28\nAccelerated public investment, b",
-    "A_chunks": [
-      {
-        "chunk_id": "ts2023:p5:c0:01869fb77d",
-        "text": "5 MAKING PUBLIC INVESTMENT WORK FOR GROWTH Abbreviations 7 Acknowledgements 9 Overview 10 Recent Economic Developments, Outlook, and Risks 11 Special focus: Making Public Investment Work for Growth 15 Chapter 1. Economic Developments and Prospects 18 I. Recent Economic Developments 19 The global economy is facing strong headwinds 19 Vietnam's economic growth decelerated sharply 19 Businesses and the labor market were negatively affected 23 The current account surplus widened, despite a contracti"
-      },
-      {
-        "chunk_id": "ts2023:p5:c1:7519674c30",
-        "text": "rrent account surplus widened, despite a contraction in exports 25 As inflation fell, SBV loosened monetary policy 28 Accelerated public investment, but implementation challenges remain 31 II. Economic Outlook, Risks, and Policy Implications 32 External headwinds expected to affect economic growth in the short term 32 As growth has slowed sharply, active fiscal policy support is warranted 34 Chapter 2. Making Public Investment work for Growth 38 I. Introduction 39 Public investment level low com"
-      },
-      {
-        "chunk_id": "ts2023:p5:c2:a331c526cf",
-        "text": "I. Introduction 39 Public investment level low compared to growing needs 39 Substantive scope to increase public investment efficiency 41 II. Public Investment Performance and Challenges 41 Persistent implementation inefficiencies 41 Increasing capital spending decentralization 42 Infrastructure quality lags that of regional peers 44 Challenges are further compounded by climate change 45 III. Weaknesses in the Institutional Framework 46 Interconnected issues across the entire PIM cycle 46 Misali"
-      },
-      {
-        "chunk_id": "ts2023:p5:c3:eae02c3cbb",
-        "text": "ected issues across the entire PIM cycle 46 Misaligned spatial planning and budgeting 48 Climate change largely absent in fiscal and investment decision 50 IV. Recommendations 51 References 53 CONTENTS"
-      }
-    ],
-    "B_chunks": [
-      {
-        "chunk_id": "ts2023:p5:c0:54958976a6",
-        "text": "Overview 10. Recent Economic Developments, Outlook, and Risks 11 Special focus: Making Public Investment Work for Growth 15 Chapter 1. Economic Developments and Prospects 18 I. Recent Economic Developments 19 The global economy is facing strong headwinds 19 Vietnam's economic growth decelerated sharply 19 Businesses and the labor market were negatively affected 23 The current account surplus widened, despite a contraction in exports 25 As inflation fell, SBV loosened monetary policy 28 Accelerated public investment, but implementation challenges remain 31 II. Economic Outlook, Risks, and Policy Implications 32 External headwinds expected to affect economic growth in the short term 32 As growth has slowed sharply, active fiscal policy support is warranted 34 Chapter 2. Making Public Investment work for Growth 38"
-      },
-      {
-        "chunk_id": "ts2023:p5:c1:b413a7f9db",
-        "text": "I. Introduction 39. Public investment level low compared to growing needs 39 Substantive scope to increase public investment efficiency 41 II. Public Investment Performance and Challenges 41 Persistent implementation inefficiencies 41 Increasing capital spending decentralization 42 Infrastructure quality lags that of regional peers 44 Challenges are further compounded by climate change 45 III. Weaknesses in the Institutional Framework 46 Interconnected issues across the entire PIM cycle 46 Misaligned spatial planning and budgeting 48 Climate change largely absent in fiscal and investment decision 50"
-      }
-    ]
-  },
-  {
-    "position": "ts2023:p6",
-    "page_text_excerpt": "6\nTAKING STOCK AUGUST 2023\nFigure 1.1. Global GDP growth 19\nFigure 1.2. Global goods trade growth 19\nFigure 1.3. Real GDP growth by expenditure components 20\nFigure 1.4. Contribution to GDP growth by sector 20\nFigure 1.5. Industrial Production Index and exports 21\nFigure 1.6. Retail sales by sector 21\nFigure 1.7. Contribution of different components to growth of total nominal investment 23\nFigure 1.8. Enterprise entries and exits 24\nFigure 1.9. New enterprises: Use of capital and labor 24\nFigure 1.10. Employment 25\nFigure 1.11. Average income 25\nFigure 1.12. Current account balance 26\nFigure 1",
-    "A_chunks": [
-      {
-        "chunk_id": "ts2023:p6:c0:ce60a0ba04",
-        "text": "6 TAKING STOCK AUGUST 2023 Figure 1.1. Global GDP growth 19 Figure 1.2. Global goods trade growth 19 Figure 1.3. Real GDP growth by expenditure components 20 Figure 1.4. Contribution to GDP growth by sector 20 Figure 1.5. Industrial Production Index and exports 21 Figure 1.6. Retail sales by sector 21 Figure 1.7. Contribution of different components to growth of total nominal investment 23 Figure 1.8. Enterprise entries and exits 24 Figure 1.9. New enterprises: Use of capital and labor 24 Figure"
-      },
-      {
-        "chunk_id": "ts2023:p6:c1:2b17a34f31",
-        "text": "ew enterprises: Use of capital and labor 24 Figure 1.10. Employment 25 Figure 1.11. Average income 25 Figure 1.12. Current account balance 26 Figure 1.13. Balance of payments 26 Figure 1.14. Exchange rate 26 Figure 1.15. Merchandise trade balance 27 Figure 1.16. Services trade balance 27 Figure 1.17. FDI commitment by sector 28 Figure 1.18. Contribution to CPI inflation 29 Figure 1.19. Price indexes of selected imports 29 Figure 1.20. Interest rates 29 Figure 1.21. Credit growth 30 Figure 1.22. "
-      },
-      {
-        "chunk_id": "ts2023:p6:c2:03c2d6c560",
-        "text": "tes 29 Figure 1.21. Credit growth 30 Figure 1.22. NPL and provision of credit institutions 30 Figure 1.23. Budget execution 31 Figure 1.24. Government revenues 32 Figure 1.25. Government expenditure 32 Figure 2.1. Public capital stock per capita and infrastructure index 39 Figure 2.2. Public capital stock per worker at different income level 39 Figure 2.3. Capital stock accumlation as a major driver for fast-growing economies 40 Figure 2.4. Persistent execution gaps (2017–2022) 42 Figure 2.5. In"
-      },
-      {
-        "chunk_id": "ts2023:p6:c3:a96139253a",
-        "text": "stent execution gaps (2017–2022) 42 Figure 2.5. Increasing level of provincial spending in total public investments 43 Figure 2.6. High level of decentralization compared to development peers 43 FIGURES BOXES Box 1.1. Securing power supply for a high-income economy 22 Box 1.2. Reforms of Vietnam's banking laws 36 Box 2.1. Transport infrastructure constraints 40 Box 2.2. Coordination and investment challenges in the Mekong Delta region 49"
-      }
-    ],
-    "B_chunks": [
-      {
-        "chunk_id": "ts2023:p6:c0:c476d22bc8",
-        "text": "TAKING STOCK AUGUST 2023. Figure 1.1. Global GDP growth 19 Figure 1.2. Global goods trade growth 19 Figure 1.3. Real GDP growth by expenditure components 20 Figure 1.4. Contribution to GDP growth by sector 20 Figure 1.5. Industrial Production Index and exports 21 Figure 1.6. Retail sales by sector 21 Figure 1.7. Contribution of different components to growth of total nominal investment 23 Figure 1.8. Enterprise entries and exits 24 Figure 1.9. New enterprises: Use of capital and labor 24 Figure 1.10. Employment 25 Figure 1.11. Average income 25 Figure 1.12. Current account balance 26 Figure 1.13. Balance of payments 26 Figure 1.14. Exchange rate 26 Figure 1.15. Merchandise trade balance 27 Figure 1.16. Services trade balance 27 Figure 1.17. FDI commitment by sector 28 Figure 1.18. Contribution to CPI inflation 29 Figure 1.19. Price indexes of selected imports 29 Figure 1.20. Interest rates 29 Figure 1.21. Credit growth 30 Figure 1.22. TAKING STOCK AUGUST 2023. NPL and provision of credit institutions 30 Figure 1.23."
-      },
-      {
-        "chunk_id": "ts2023:p6:c2:5a01b97ea4",
-        "text": "TAKING STOCK AUGUST 2023. Budget execution 31 Figure 1.24. Government revenues 32 Figure 1.25. Government expenditure 32 Figure 2.1. Public capital stock per capita and infrastructure index 39 Figure 2.2. Public capital stock per worker at different income level 39 Figure 2.3. Capital stock accumlation as a major driver for fast-growing economies 40 Figure 2.4. Persistent execution gaps (2017–2022) 42 Figure 2.5. Increasing level of provincial spending in total public investments 43 Figure 2.6. High level of decentralization compared to development peers 43 BOXES Box 1.1. Securing power supply for a high-income economy 22 Box 1.2. Reforms of Vietnam's banking laws 36 Box 2.1. Transport infrastructure constraints 40 Box 2.2. Coordination and investment challenges in the Mekong Delta region 49"
-      }
-    ]
-  },
-  {
-    "position": "ts2023:p7",
-    "page_text_excerpt": "7\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\nTABLES\nTable 0.1. Selected Economic Indicators, Vietnam 2020-2025 13\nTable 1.1. Selected economic indicators, Vietnam 2020–2025 34\nTable 2.1. Quality of infrastructure 45\nASEAN Association of Southeast Asian Nations\nCIT Corporate Income Tax\nCPI Consumer Price Index\nEMDE Emerging Market and Developing Economies\nEU European Union\nFDI Foreign Direct Investment\nGDP Gross Domestic Product\nGER Gross Expense Ratio\nGNFS Goods and Non-Factor Services\nGFCF Gross fixed capital formation\nGSO General Statistics Office\nGW Gigawatt\nICOR Iincremental capital output r",
-    "A_chunks": [
-      {
-        "chunk_id": "ts2023:p7:c0:a97c6af199",
-        "text": "7 MAKING PUBLIC INVESTMENT WORK FOR GROWTH TABLES Table 0.1. Selected Economic Indicators, Vietnam 2020-2025 13 Table 1.1. Selected economic indicators, Vietnam 2020–2025 34 Table 2.1. Quality of infrastructure 45 ASEAN Association of Southeast Asian Nations CIT Corporate Income Tax CPI Consumer Price Index EMDE Emerging Market and Developing Economies EU European Union FDI Foreign Direct Investment GDP Gross Domestic Product GER Gross Expense Ratio GNFS Goods and Non-Factor Services GFCF Gross "
-      },
-      {
-        "chunk_id": "ts2023:p7:c1:6958a1fa94",
-        "text": "tio GNFS Goods and Non-Factor Services GFCF Gross fixed capital formation GSO General Statistics Office GW Gigawatt ICOR Iincremental capital output ratio IGF Intergovernmental fiscal IMF International Monetary Fund Km Kilometer LCI Law on Credit Institutions MoF Ministry of Finance MPI Ministry of Planning and Investment MTIP Medium-Term Investment Plan NPL Non-Performing Loans NSA Not Seasonally Adjusted NTPs National targeted programs O&M Operation and maintenance ODA Official Development Ass"
-      },
-      {
-        "chunk_id": "ts2023:p7:c2:71a25fe97f",
-        "text": "ation and maintenance ODA Official Development Assistance OECD Organisation for Economic Co-operation and Development PAM Public asset management PDML Public Debt Management Law PFS Pre-feasibility study PIL Public Investment Law PIM Public investment management ABBREVIATIONS"
-      }
-    ],
-    "B_chunks": [
-      {
-        "chunk_id": "ts2023:p7:c0:99e7eae7d2",
-        "text": "TABLES. Table 0.1. Selected Economic Indicators, Vietnam 2020-2025 13 Table 1.1. Selected economic indicators, Vietnam 2020–2025 34 Table 2.1. Quality of infrastructure 45 ASEAN Association of Southeast Asian Nations CIT Corporate Income Tax CPI Consumer Price Index EMDE Emerging Market and Developing Economies FDI Foreign Direct Investment GDP Gross Domestic Product GER Gross Expense Ratio GNFS Goods and Non-Factor Services GFCF Gross fixed capital formation GSO General Statistics Office ICOR Iincremental capital output ratio IGF Intergovernmental fiscal IMF International Monetary Fund"
-      },
-      {
-        "chunk_id": "ts2023:p7:c1:7f73daf7f0",
-        "text": "Km Kilometer. LCI Law on Credit Institutions MoF Ministry of Finance MPI Ministry of Planning and Investment MTIP Medium-Term Investment Plan NPL Non-Performing Loans NSA Not Seasonally Adjusted NTPs National targeted programs O&M Operation and maintenance ODA Official Development Assistance OECD Organisation for Economic Co-operation and Development PAM Public asset management PDML Public Debt Management Law PFS Pre-feasibility study PIL Public Investment Law PIM Public investment management"
-      }
-    ]
-  },
-  {
-    "position": "ts2023:p8",
-    "page_text_excerpt": "8\nTAKING STOCK AUGUST 2023\nPIT Personal Income Tax\nPPG Public and Publicly Guaranteed Debt\nRCC Regional Coordination Council\nREER Real Effective Exchange Rate\nSBIMIS State Budget Investment Management Information System\nSBL State Budget Law\nSBV State Bank of Vietnam\nSCBA Social cost benefit analysis\nSME Small-to-Medium Sized Enterprise\nSNG Subnational government\nSOE State-owned enterprise\nTOT Terms of Trade\nVAMC Vietnam Asset Management Company\nVAT Value-Added Tax\nVND Vietnam Dong\nY/y Year-over-year",
-    "A_chunks": [
-      {
-        "chunk_id": "ts2023:p8:c0:4fc8c5d54b",
-        "text": "8 TAKING STOCK AUGUST 2023 PIT Personal Income Tax PPG Public and Publicly Guaranteed Debt RCC Regional Coordination Council REER Real Effective Exchange Rate SBIMIS State Budget Investment Management Information System SBL State Budget Law SBV State Bank of Vietnam SCBA Social cost benefit analysis SME Small-to-Medium Sized Enterprise SNG Subnational government SOE State-owned enterprise TOT Terms of Trade VAMC Vietnam Asset Management Company VAT Value-Added Tax VND Vietnam Dong Y/y Year-over-"
-      },
-      {
-        "chunk_id": "ts2023:p8:c1:25f3134df4",
-        "text": "AT Value-Added Tax VND Vietnam Dong Y/y Year-over-year"
-      }
-    ],
-    "B_chunks": [
-      {
-        "chunk_id": "ts2023:p8:c0:4fc8c5d54b",
-        "text": "8 TAKING STOCK AUGUST 2023 PIT Personal Income Tax PPG Public and Publicly Guaranteed Debt RCC Regional Coordination Council REER Real Effective Exchange Rate SBIMIS State Budget Investment Management Information System SBL State Budget Law SBV State Bank of Vietnam SCBA Social cost benefit analysis SME Small-to-Medium Sized Enterprise SNG Subnational government SOE State-owned enterprise"
-      }
-    ]
-  },
-  {
-    "position": "ts2023:p9",
-    "page_text_excerpt": "9\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\nThis report was written by Dorsati Madani (Senior Country Economist), Dung Viet Do (Senior Country Officer),\nQuyen Hoang Vu (Senior Governance Specialist), and Thu-Ha Thi Nguyen (Research Analyst). It benefited\nfrom inputs by Chiara Odetta Rogate (Senior Energy Specialist), Ha Thi Thanh Nguyen (Consultant), Huong\nThi Lan Tran (Senior Public Sector Specialist), James Anderson (Lead Public Sector Specialist), Katia D'Hulster\n(Lead Financial Sector Specialist), Ketut Kusuma (Senior Financial Sector Specialist), Phuong Anh Nguyen\n(Senior Public Sector Man",
-    "A_chunks": [
-      {
-        "chunk_id": "ts2023:p9:c0:be6f2a0788",
-        "text": "9 MAKING PUBLIC INVESTMENT WORK FOR GROWTH This report was written by Dorsati Madani (Senior Country Economist), Dung Viet Do (Senior Country Officer), Quyen Hoang Vu (Senior Governance Specialist), and Thu-Ha Thi Nguyen (Research Analyst). It benefited from inputs by Chiara Odetta Rogate (Senior Energy Specialist), Ha Thi Thanh Nguyen (Consultant), Huong Thi Lan Tran (Senior Public Sector Specialist), James Anderson (Lead Public Sector Specialist), Katia D'Hulster (Lead Financial Sector Special"
-      },
-      {
-        "chunk_id": "ts2023:p9:c1:7b0f3fb4a0",
-        "text": "t), Katia D'Hulster (Lead Financial Sector Specialist), Ketut Kusuma (Senior Financial Sector Specialist), Phuong Anh Nguyen (Senior Public Sector Management Specialist), Quang Hong Doan (Senior Economist), Serdar Yilmaz (Practice Manager), Trang Minh Ta (Consultant), Tuan Minh Le (Lead Economist), and Viet Quoc Trieu (Senior Financial Sector Specialist). We are grateful to Anh Thi Quynh Le (External Affairs Officer), and Ngan Hong Nguyen (Senior External Affairs Officer) for the communication s"
-      },
-      {
-        "chunk_id": "ts2023:p9:c2:3f78d1e54f",
-        "text": " External Affairs Officer) for the communication support. Khanh Linh Thi Le (Program Assistant) provided support during the preparation of the report. The team is grateful for the overall guidance of Andrea Coppola (Lead Economist and Program Leader), Sebastian Eckardt (Practice Manager; Macroeconomics, Trade, and Investment), Alma Kanani (Practice Manager; Governance), and Carolyn Turk (Country Director for Vietnam). ACKNOWLEDGEMENTS"
-      }
-    ],
-    "B_chunks": [
-      {
-        "chunk_id": "ts2023:p9:c0:99be35aa28",
-        "text": "MAKING PUBLIC INVESTMENT WORK FOR GROWTH. This report was written by Dorsati Madani (Senior Country Economist), Dung Viet Do (Senior Country Officer), Quyen Hoang Vu (Senior Governance Specialist), and Thu-Ha Thi Nguyen (Research Analyst). It benefited from inputs by Chiara Odetta Rogate (Senior Energy Specialist), Ha Thi Thanh Nguyen (Consultant), Huong Thi Lan Tran (Senior Public Sector Specialist), James Anderson (Lead Public Sector Specialist), Katia D'Hulster (Lead Financial Sector Specialist), Ketut Kusuma (Senior Financial Sector Specialist), Phuong Anh Nguyen (Senior Public Sector Management Specialist), Quang Hong Doan (Senior Economist), Serdar Yilmaz (Practice Manager), Trang Minh Ta (Consultant), Tuan Minh Le (Lead Economist), and Viet Quoc Trieu (Senior Financial Sector Specialist). We are grateful to Anh Thi Quynh Le (External Affairs Officer), and Ngan Hong Nguyen (Senior External Affairs Officer) for the communication support."
-      },
-      {
-        "chunk_id": "ts2023:p9:c1:c3b49cf126",
-        "text": "MAKING PUBLIC INVESTMENT WORK FOR GROWTH. Khanh Linh Thi Le (Program Assistant) provided support during the preparation of the report. The team is grateful for the overall guidance of Andrea Coppola (Lead Economist and Program Leader), Sebastian Eckardt (Practice Manager; Macroeconomics, Trade, and Investment), Alma Kanani (Practice Manager; Governance), and Carolyn Turk (Country Director for Vietnam)."
-      }
-    ]
-  },
-  {
     "position": "ts2023:p11",
     "page_text_excerpt": "11\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\nRecent Economic Developments\nThe external environment remains challenging\nwith downside risks prevailing in the near-\nterm. Global GDP growth is projected to decline to 2.1\npercent in 2023 from 3.1 percent in 2022, reflecting\nweakening demand in most advanced economies. In\nline with slower global growth, global trade growth\nis estimated to weaken from 6 percent in 2022 to 1.7\npercent in 2023.\nAfter registering 8 percent real GDP growth\nin 2022, Vietnam's economic growth\ndecelerated sharply in the first half of 2023,\nreflecting a slump in external and",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
     "A_chunks": [
       {
         "chunk_id": "ts2023:p11:c0:95240adea4",
@@ -265,6 +71,7 @@
   {
     "position": "ts2023:p12",
     "page_text_excerpt": "12\nTAKING STOCK AUGUST 2023\nby the Private Sector Development Committee, 60.1\npercent of firms reported a reduction in revenue of at\nleast 20 percent during the first four months of 2023\nand 59.2 percent reported reduction in orders. 71.2\npercent reported a cut of at least 5 percent of their\nlabor force in the first four months of the year.5 At the\nnational level, growth in employment slowed from\n2.2 percent (y/y) in the first quarter of 2023 to just\n1.4 percent (y/y) in the second quarter of 2023, well\nbelow an average pre-covid level of about 4 percent.\nThe external demand shock has especial",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
     "A_chunks": [
       {
         "chunk_id": "ts2023:p12:c0:c35b0e7bb5",
@@ -335,6 +142,482 @@
       {
         "chunk_id": "ts2023:p12:c6:bf4ecd2962",
         "text": "TAKING STOCK AUGUST 2023. 6 The Southeast Region includes Ho Chi Minh City and Provinces of Dong Nai, Binh Duong, Ba Ria – Vung Tau, Binh Phuoc and Tay Ninh, contributing about 32 percent of GDP. The region is home to 18.7 million people or about 19 percent of Vietnam population. 7 Ministry of Labor, Invalids and Social Affairs, June 2023 8 Circular 02/2023/TT-NHNN allows banks to restructure loans and stagger provisions over multiple financial years when owed by borrowers which are facing payment difficulties but who have been assessed to be capable to repay principal and/or interest according to the restructured repayment term."
+      }
+    ]
+  },
+  {
+    "position": "ts2023:p13",
+    "page_text_excerpt": "13\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\nas revenue collection contracted by 7 percent in\nthe first half of 2023 compared to a year ago due\nto the slowing economic activities. Meanwhile,\ntotal expenditure rose by 12.8 percent (y/y) in the\nfirst half of 2023, due to a 43 percent (y/y) increase\nin public investment disbursement related to\nimplementation of the investment component\n(valued at 1.6 percent of GDP) of the 2022-2023\nSocio-Economic Recovery Plan. However, the\nestimated cumulative disbursement of the public\ninvestment budget remained low at 30.5 percent of\nthe annual budget at the e",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
+    "A_chunks": [
+      {
+        "chunk_id": "ts2023:p13:c0:aa8ac26bfd",
+        "text": "13 MAKING PUBLIC INVESTMENT WORK FOR GROWTH as revenue collection contracted by 7 percent in the first half of 2023 compared to a year ago due to the slowing economic activities. Meanwhile, total expenditure rose by 12.8 percent (y/y) in the first half of 2023, due to a 43 percent (y/y) increase in public investment disbursement related to implementation of the investment component (valued at 1.6 percent of GDP) of the 2022-2023 Socio-Economic Recovery Plan. However, the estimated cumulative dis"
+      },
+      {
+        "chunk_id": "ts2023:p13:c1:9dc67edecf",
+        "text": "covery Plan. However, the estimated cumulative disbursement of the public investment budget remained low at 30.5 percent of the annual budget at the end of June 2023. Outlook, risks, and policy implications Vietnam's economy is expected to grow by 4.7 percent in 2023, with a slow projected recovery to 5.5 percent in 2024 and to 6.0 percent in 2025. While softening, domestic demand is expected to be the main driver of growth in 2023. Private consumption will remain resilient, - growing 6.0 (y/y) "
+      },
+      {
+        "chunk_id": "ts2023:p13:c2:a763c7a677",
+        "text": "mption will remain resilient, - growing 6.0 (y/y) percent, albeit slowing below its pre-pandemic growth of 7 percent (y/y) in 2019, and contributing 3.4 percentage points to GDP growth. Overall, investment will contribute 1.8 percentage points to growth. Private investment is expected to remain subdued, growing 4.3 percent (y/y) compared to 8.2 percent (y/y) in 2019 due to uncertainties in the external environment, contributing 1.2 percentage points to GDP growth. Public investment is expected t"
+      },
+      {
+        "chunk_id": "ts2023:p13:c3:33d1c880d7",
+        "text": "nts to GDP growth. Public investment is expected to increase 9.5 percent (y/y) contributing 0.6 percentage points to GDP growth, but only partially compensating for the lower private investment. With the easing of liquidity conditions and SBV's renewed guidance on loan forbearance, the financing constraints in the real estate/construction sectors are expected to ease, supporting a moderate recovery of private investment from 2024 onward. The CPI is expected to rise slightly from an average 3.1 p"
+      },
+      {
+        "chunk_id": "ts2023:p13:c4:e02400eb49",
+        "text": "is expected to rise slightly from an average 3.1 percent in 2022 to an average 3.5 percent in 2023. The deflationary impact of slower growth and a VAT rate cut from 10 percent to 8 percent rolled out for the second half of 2023 is expected to be more than offset by a civil service salary increase of 20.8 percent. The CPI will moderate to 3.0 percent in 2024 and 2025 based on the expectation of stable commodity and energy prices in 2024. The fiscal balance is expected to register a small deficit "
+      },
+      {
+        "chunk_id": "ts2023:p13:c5:3268b3596f",
+        "text": "l balance is expected to register a small deficit of 0.7 percent of GDP in 2023. Fiscal policy is expected to remain moderately supportive of the economy in 2023 given public investment implementation challenges. Starting in 2024, the government will gradually move back to consolidate its fiscal stance, in line with the Financial Strategy for 2021-2030. Public and Publicly Guaranteed debt (PPG) will remain sustainable, stabilizing at an estimated 36 percent of GDP in 2023 before falling to an es"
+      },
+      {
+        "chunk_id": "ts2023:p13:c6:ec70ccb40c",
+        "text": " 36 percent of GDP in 2023 before falling to an estimated 34.4 percent in 2025. The current account is expected to gradually improve, thanks to a modest recovery of exports, continued recovery of international tourism, and resilient remittances. 2024f 5.5 3.0 0.5 -0.3 35.2 2023f 4.7 3.5 0.2 -0.7 36.0 2025f 6.0 3.0 1.0 -0.2 34.4 Source: GSO; MOF; SBV; IMF; and World Bank staff calculations. Note: e = estimate; f = forecast, *: excluding unallocated expenditures and following GFS. Table 0.1. Selec"
+      },
+      {
+        "chunk_id": "ts2023:p13:c7:3b0691a492",
+        "text": "d expenditures and following GFS. Table 0.1. Selected Economic Indicators, Vietnam 2020-2025 Indicator GDP growth (%) Consumer Price Index (average, %) Current account balance (% of GDP) Fiscal balance (*) (% of GDP) Public debt (% of GDP) 2020 2.9 3.2 4.3 -2.9 41.3 2022e 8.0 3.1 -0.3 -0.3 35.7 2021 2.6 1.8 -2.1 -3.4 39.3"
+      }
+    ],
+    "B_chunks": [
+      {
+        "chunk_id": "ts2023:p13:c0:aa8ac26bfd",
+        "text": "13 MAKING PUBLIC INVESTMENT WORK FOR GROWTH as revenue collection contracted by 7 percent in the first half of 2023 compared to a year ago due to the slowing economic activities. Meanwhile, total expenditure rose by 12.8 percent (y/y) in the first half of 2023, due to a 43 percent (y/y) increase in public investment disbursement related to implementation of the investment component (valued at 1.6 percent of GDP) of the 2022-2023 Socio-Economic Recovery Plan. However, the estimated cumulative disbursement of the public investment budget remained low at 30.5 percent of the annual budget at the end of June 2023. Outlook, risks, and policy implications Vietnam's economy is expected to grow by 4.7 percent in 2023, with a slow projected recovery to 5.5 percent in 2024 and to 6.0 percent in 2025. While softening, domestic demand is expected to be the main driver of growth in 2023."
+      },
+      {
+        "chunk_id": "ts2023:p13:c1:b06096b422",
+        "text": "Private consumption will remain resilient, - growing 6.0 (y/y) percent, albeit slowing below its pre-pandemic growth of 7 percent (y/y) in 2019, and contributing 3.4 percentage points to GDP growth. Overall, investment will contribute 1.8 percentage points to growth. Private investment is expected to remain subdued, growing 4.3 percent (y/y) compared to 8.2 percent (y/y) in 2019 due to uncertainties in the external environment, contributing 1.2 percentage points to GDP growth. Public investment is expected to increase 9.5 percent (y/y) contributing 0.6 percentage points to GDP growth, but only partially compensating for the lower private investment. With the easing of liquidity conditions and SBV's renewed guidance on loan forbearance, the financing constraints in the real estate/construction sectors are expected to ease, supporting a moderate recovery of private investment from 2024 onward."
+      },
+      {
+        "chunk_id": "ts2023:p13:c2:f8e7aca1a0",
+        "text": "The CPI is expected to rise slightly from an average 3.1 percent in 2022 to an average 3.5 percent in 2023. The deflationary impact of slower growth and a VAT rate cut from 10 percent to 8 percent rolled out for the second half of 2023 is expected to be more than offset by a civil service salary increase of 20.8 percent. The CPI will moderate to 3.0 percent in 2024 and 2025 based on the expectation of stable commodity and energy prices in 2024."
+      },
+      {
+        "chunk_id": "ts2023:p13:c3:126ad7a641",
+        "text": "The fiscal balance is expected to register a small deficit of 0.7 percent of GDP in 2023. Fiscal policy is expected to remain moderately supportive of the economy in 2023 given public investment implementation challenges. Starting in 2024, the government will gradually move back to consolidate its fiscal stance, in line with the Financial Strategy for 2021-2030. Public and Publicly Guaranteed debt (PPG) will remain sustainable, stabilizing at an estimated 36 percent of GDP in 2023 before falling to an estimated 34.4 percent in 2025. The current account is expected to gradually improve, thanks to a modest recovery of exports, continued recovery of international tourism, and resilient remittances. -0.3 -0.7 -0.2 34.4 Source: GSO; MOF; SBV; IMF; and World Bank staff calculations. Note: e = estimate; f = forecast, *: excluding unallocated expenditures and following GFS. Table 0.1. Selected Economic Indicators, Vietnam 2020-2025 Indicator. GDP growth (%) Consumer Price Index (average, %) Current account balance (% of GDP) Fiscal balance (*) (% of GDP) -2.9 -0.3 -0.3 -2.1 -3.4"
+      }
+    ]
+  },
+  {
+    "position": "ts2023:p14",
+    "page_text_excerpt": "14\nTAKING STOCK AUGUST 2023\nThe outlook is subject to heightened domestic\nand external risks. Slower-than-expected growth\nin advanced economies and China could further\ndampen external demand for Vietnam's export\nsector, whose size is estimated at 50 percent of\nGDP. Continued uncertainties in the global financial\nmarket have the potential to rekindle stress in\nthe global banking sector, intensify investor risk\naversion, and discourage investment – including FDI\nto Vietnam. Additional monetary policy tightening\nin major advanced economies to combat persistent\ninflation could widen the interest r",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
+    "A_chunks": [
+      {
+        "chunk_id": "ts2023:p14:c0:e25154d771",
+        "text": "14 TAKING STOCK AUGUST 2023 The outlook is subject to heightened domestic and external risks. Slower-than-expected growth in advanced economies and China could further dampen external demand for Vietnam's export sector, whose size is estimated at 50 percent of GDP. Continued uncertainties in the global financial market have the potential to rekindle stress in the global banking sector, intensify investor risk aversion, and discourage investment – including FDI to Vietnam. Additional monetary pol"
+      },
+      {
+        "chunk_id": "ts2023:p14:c1:b1d2700181",
+        "text": " including FDI to Vietnam. Additional monetary policy tightening in major advanced economies to combat persistent inflation could widen the interest rate gap between international and domestic markets. This could exert exchange rate pressures on the local currency. Moreover, an escalation of geopolitical tensions and climate-related disasters pose additional downside risks for the country, including through rising food and fuel prices. Domestically, the financial sector faces heightened vulnerab"
+      },
+      {
+        "chunk_id": "ts2023:p14:c2:cf8b5d0684",
+        "text": "ly, the financial sector faces heightened vulnerabilities and risks that warrant close monitoring and reforms. Since the economy is constrained by weak aggregate demand and growth has fallen significantly below potential active policy support is warranted: z Given ample fiscal space, fiscal policy should take the lead, ensuring a much better implementation of the investment budget for 2023. A full implementation of the planned investment budget would bring public investments to 7.1 percent of GD"
+      },
+      {
+        "chunk_id": "ts2023:p14:c3:0461a37a2c",
+        "text": "ould bring public investments to 7.1 percent of GDP in 2023, up from 5.5 percent planned in 2022, providing a fiscal impulse of 0.4 percent of GDP to support aggregate demand. The government has planned a 38 percent increase (y/y) in public investment for 2023 – equivalent to 1.6 percent of GDP (as part of 2022-2023 Socio-Economic Recovery Program). It is accelerating implementation with disbursement of the public investment budget jumping by 43.3 percent (y/y) during the first semester of 2023."
+      },
+      {
+        "chunk_id": "ts2023:p14:c4:c6be273005",
+        "text": "3 percent (y/y) during the first semester of 2023. However, historical public investment implementation rates have been low in the recent past, for example reaching only 67.3 percent in 2022.9 Steps to accelerate and improve the efficiency of implementation would also help address emerging infrastructure constraints to growth, including critical investment needed in the electricity transmission network and in building resilience to climate change. These steps include setting investment targets a"
+      },
+      {
+        "chunk_id": "ts2023:p14:c5:ace8119e44",
+        "text": ". These steps include setting investment targets and enforcing accountability at different intergovernmental levels for achieving them; focusing on key national investment programs such as national expressway, power transmission and national target programs; allowing flexibility in rules related to budget allocation for the projects identified as part of 2022-2023 Socio-Economic Recovery Program; and allowing some flexibility on certain advance procurement activities before budget allocation. In"
+      },
+      {
+        "chunk_id": "ts2023:p14:c6:e60a5a2638",
+        "text": "rocurement activities before budget allocation. In addition to public investment, supporting workers and families affected by the slowdown through a more effective social protection system could also help support aggregate demand. To successfully do so, the authorities need to reform the targeting approaches and delivery mechanisms of the social protection system so it might serve as an agile tool to support the vulnerable during economic shocks. z Fiscal policy support should be accompanied by "
+      },
+      {
+        "chunk_id": "ts2023:p14:c7:b23dcc3250",
+        "text": " z Fiscal policy support should be accompanied by continued monetary policy accommodation but the space for additional loosening is constrained. As credit demand has remained persistently low despite interest rate cuts, further reducing interest rates may not have the desired effect of incentivizing credit growth. Also, further interest rate cuts would increase the interest rate differential with global markets, potentially putting pressure on the exchange rate. z Addressing heightened financial"
+      },
+      {
+        "chunk_id": "ts2023:p14:c8:2a27e321d5",
+        "text": "e exchange rate. z Addressing heightened financial risks and financial sector vulnerabilities requires reforms to improve bank capital adequacy 9 Of planned budget approved by the National Assembly, as of December 31, 2022."
+      }
+    ],
+    "B_chunks": [
+      {
+        "chunk_id": "ts2023:p14:c0:a6b853f17d",
+        "text": "TAKING STOCK AUGUST 2023. The outlook is subject to heightened domestic and external risks. Slower-than-expected growth in advanced economies and China could further dampen external demand for Vietnam's export sector, whose size is estimated at 50 percent of GDP. Continued uncertainties in the global financial market have the potential to rekindle stress in the global banking sector, intensify investor risk aversion, and discourage investment – including FDI to Vietnam. Additional monetary policy tightening in major advanced economies to combat persistent inflation could widen the interest rate gap between international and domestic markets. This could exert exchange rate pressures on the local currency. Moreover, an escalation of geopolitical tensions and climate-related disasters pose additional downside risks for the country, including through rising food and fuel prices. TAKING STOCK AUGUST 2023. Domestically, the financial sector faces heightened vulnerabilities and risks that warrant close monitoring and reforms."
+      },
+      {
+        "chunk_id": "ts2023:p14:c2:a038a5a3f8",
+        "text": "TAKING STOCK AUGUST 2023. Since the economy is constrained by weak aggregate demand and growth has fallen significantly below potential active policy support is warranted: z Given ample fiscal space, fiscal policy should take the lead, ensuring a much better implementation of the investment budget for 2023. A full implementation of the planned investment budget would bring public investments to 7.1 percent of GDP in 2023, up from 5.5 percent planned in 2022, providing a fiscal impulse of 0.4 percent of GDP to support aggregate demand. The government has planned a 38 percent increase (y/y) in public investment for 2023 – equivalent to 1.6 percent of GDP (as part of 2022-2023 Socio-Economic Recovery Program). It is accelerating implementation with disbursement of the public investment budget jumping by 43.3 percent (y/y) during the first semester of 2023."
+      },
+      {
+        "chunk_id": "ts2023:p14:c3:73e9f20cda",
+        "text": "TAKING STOCK AUGUST 2023. However, historical public investment implementation rates have been low in the recent past, for example reaching only 67.3 percent in 2022.9 Steps to accelerate and improve the efficiency of implementation would also help address emerging infrastructure constraints to growth, including critical investment needed in the electricity transmission network and in building resilience to climate change. These steps include setting investment targets and enforcing accountability at different intergovernmental levels for achieving them; focusing on key national investment programs such as national expressway, power transmission and national target programs; allowing flexibility in rules related to budget allocation for the projects identified as part of 2022-2023 Socio-Economic Recovery Program; and allowing some flexibility on certain advance procurement activities before budget allocation."
+      },
+      {
+        "chunk_id": "ts2023:p14:c4:5f04a69509",
+        "text": "TAKING STOCK AUGUST 2023. In addition to public investment, supporting workers and families affected by the slowdown through a more effective social protection system could also help support aggregate demand. To successfully do so, the authorities need to reform the targeting approaches and delivery mechanisms of the social protection system so it might serve as an agile tool to support the vulnerable during economic shocks."
+      },
+      {
+        "chunk_id": "ts2023:p14:c5:e7beb33fc7",
+        "text": "TAKING STOCK AUGUST 2023. z Fiscal policy support should be accompanied by continued monetary policy accommodation but the space for additional loosening is constrained. As credit demand has remained persistently low despite interest rate cuts, further reducing interest rates may not have the desired effect of incentivizing credit growth. Also, further interest rate cuts would increase the interest rate differential with global markets, potentially putting pressure on the exchange rate. z Addressing heightened financial risks and financial sector vulnerabilities requires reforms to improve bank capital adequacy 9 Of planned budget approved by the National Assembly, as of December 31, 2022."
+      }
+    ]
+  },
+  {
+    "position": "ts2023:p15",
+    "page_text_excerpt": "15\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\n10 Socio-Economic Development Strategy 2021–2030 and National Development Masterplan 2021–2030, vision 2050.\n11 The economy remains relatively capital scarce with a public capital stock per capita and per worker well below upper middle-income and high-\nincome countries. Meanwhile, global experience suggests that capital accumulation as the most important driver for fast-growing countries when\nthey were at Vietnam's level of development.\nratios and strengthen institutional framework\nfor prudential supervision, early intervention,\nbank resolution, and ",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
+    "A_chunks": [
+      {
+        "chunk_id": "ts2023:p15:c0:36250c1b36",
+        "text": "15 MAKING PUBLIC INVESTMENT WORK FOR GROWTH 10 Socio-Economic Development Strategy 2021–2030 and National Development Masterplan 2021–2030, vision 2050. 11 The economy remains relatively capital scarce with a public capital stock per capita and per worker well below upper middle-income and high- income countries. Meanwhile, global experience suggests that capital accumulation as the most important driver for fast-growing countries when they were at Vietnam's level of development. ratios and stre"
+      },
+      {
+        "chunk_id": "ts2023:p15:c1:372c939d23",
+        "text": "at Vietnam's level of development. ratios and strengthen institutional framework for prudential supervision, early intervention, bank resolution, and crisis management. These reforms are expected to help authorities effectively monitor and intervene in troubled financial institutions, preventing the escalation of crises and minimizing systemic risks. Additionally, a robust bank resolution framework is crucial to facilitate the orderly resolution of any failed banks, protecting depositors and pre"
+      },
+      {
+        "chunk_id": "ts2023:p15:c2:f6a99aa485",
+        "text": "of any failed banks, protecting depositors and preserving financial stability. z Launching a new round of structural reforms would help enhance the productivity and sustainability of economic growth, contributing to its ambitions to become a high- income country by 2045. Continued reforms to lighten the regulatory burden on businesses are necessary for productivity gains and increased competitiveness. More critically, relaunching the State-Owned Enterprises (SOEs) reform can act as a catalyst to"
+      },
+      {
+        "chunk_id": "ts2023:p15:c3:540b91f705",
+        "text": "Enterprises (SOEs) reform can act as a catalyst to attract private sector participation, improve productivity, and ultimately boost overall economic performance. Promoting an inclusive financial sector can empower individuals and businesses to participate fully in economic activities, in turn enhancing their contribution to sustainable growth. Furthermore, building medium-term resilience in exports is important to mitigate risks associated with external shocks. Diversifying the product base and "
+      },
+      {
+        "chunk_id": "ts2023:p15:c4:94e4e928c2",
+        "text": "xternal shocks. Diversifying the product base and export destinations helps reduce reliance on specific markets and products, making economies more resilient to global economic fluctuations. Additionally, fully utilizing existing Free Trade Agreements (FTAs) can unlock market opportunities, boost exports, and foster economic integration with partner countries. z In the medium term, fiscal policy can also help enhance the sustainability of Vietnam's economic growth. For instance, fiscal policy ca"
+      },
+      {
+        "chunk_id": "ts2023:p15:c5:7904a97e4b",
+        "text": "'s economic growth. For instance, fiscal policy can help build resilience to climate change by incentivizing green production and consumption. Implementing carbon taxation and other fiscal instruments can incentivize industries to reduce their carbon footprint and adopt more sustainable practices. Simultaneously, providing time bound fiscal incentives for green consumption, such as tax breaks or subsidies for eco-friendly products, can encourage individuals to make environmentally conscious choi"
+      },
+      {
+        "chunk_id": "ts2023:p15:c6:b43ef077d2",
+        "text": "individuals to make environmentally conscious choices. Vietnam, in seeking to reach upper middle- income status by 2030 and high-income status by 2045, aspires to become a modern and industrialized nation with a higher quality of life for its citizens. To achieve this ambitious development goal, the Vietnamese Government estimates that it needs to invest an average of 7.3 percent of GDP annually into infrastructure during the 2021-2030 period. 10 Despite growing needs, Vietnam's public investmen"
+      },
+      {
+        "chunk_id": "ts2023:p15:c7:e93d30ffa7",
+        "text": " Despite growing needs, Vietnam's public investments have been on a declining trend from 8 percent of GDP in 2011 to 6 percent in 2022. While every effort should be made to reverse this trend, 11 improving the efficiency of investment is also key, as it would have a major impact on aggregate productivity growth and GDP levels. SPECIAL FOCUS: MAKING PUBLIC INVESTMENT WORK FOR GROWTH"
+      }
+    ],
+    "B_chunks": [
+      {
+        "chunk_id": "ts2023:p15:c0:36250c1b36",
+        "text": "15 MAKING PUBLIC INVESTMENT WORK FOR GROWTH 10 Socio-Economic Development Strategy 2021–2030 and National Development Masterplan 2021–2030, vision 2050. 11 The economy remains relatively capital scarce with a public capital stock per capita and per worker well below upper middle-income and highincome countries. Meanwhile, global experience suggests that capital accumulation as the most important driver for fast-growing countries when they were at Vietnam's level of development. ratios and strengthen institutional framework for prudential supervision, early intervention, bank resolution, and crisis management. These reforms are expected to help authorities effectively monitor and intervene in troubled financial institutions, preventing the escalation of crises and minimizing systemic risks."
+      },
+      {
+        "chunk_id": "ts2023:p15:c1:0cb2393357",
+        "text": "Additionally, a robust bank resolution framework is crucial to facilitate the orderly resolution of any failed banks, protecting depositors and preserving financial stability. z Launching a new round of structural reforms would help enhance the productivity and sustainability of economic growth, contributing to its ambitions to become a highincome country by 2045. Continued reforms to lighten the regulatory burden on businesses are necessary for productivity gains and increased competitiveness. More critically, relaunching the State-Owned Enterprises (SOEs) reform can act as a catalyst to attract private sector participation, improve productivity, and ultimately boost overall economic performance. Promoting an inclusive financial sector can empower individuals and businesses to participate fully in economic activities, in turn enhancing their contribution to sustainable growth."
+      },
+      {
+        "chunk_id": "ts2023:p15:c2:0e25b80750",
+        "text": "Furthermore, building medium-term resilience in exports is important to mitigate risks associated with external shocks. Diversifying the product base and export destinations helps reduce reliance on specific markets and products, making economies more resilient to global economic fluctuations. Additionally, fully utilizing existing Free Trade Agreements (FTAs) can unlock market opportunities, boost exports, and foster economic integration with partner countries. z In the medium term, fiscal policy can also help enhance the sustainability of Vietnam's economic growth. For instance, fiscal policy can help build resilience to climate change by incentivizing green production and consumption. Implementing carbon taxation and other fiscal instruments can incentivize industries to reduce their carbon footprint and adopt more sustainable practices."
+      },
+      {
+        "chunk_id": "ts2023:p15:c3:1a2fb1bebd",
+        "text": "Simultaneously, providing time bound fiscal incentives for green consumption, such as tax breaks or subsidies for eco-friendly products, can encourage individuals to make environmentally conscious choices. Vietnam, in seeking to reach upper middleincome status by 2030 and high-income status by 2045, aspires to become a modern and industrialized nation with a higher quality of life for its citizens. To achieve this ambitious development goal, the Vietnamese Government estimates that it needs to invest an average of 7.3 percent of GDP annually into infrastructure during the 2021-2030 period. 10 Despite growing needs, Vietnam's public investments have been on a declining trend from 8 percent of GDP in 2011 to 6 percent in 2022. While every effort should be made to reverse this trend, 11 improving the efficiency of investment is also key, as it would have a major impact on aggregate productivity growth and GDP levels."
+      }
+    ]
+  },
+  {
+    "position": "ts2023:p16",
+    "page_text_excerpt": "16\nTAKING STOCK AUGUST 2023\nThe investment budget decline is compounded\nby persistent allocative, technical, and\noperational inefficiencies. Between 2011 and\n2019, it took more than six Vietnamese dongs in\ninvestment to generate one Vietnamese dong in\nadditional output.12 As a result, Vietnam achieves\nmuch less growth per dollar of investment than\nChina, Malaysia, Republic of Korea, Singapore, and\nThailand at comparable levels of per capita income\nand development. Vietnam's infrastructure quality\nranked 77th out of 141 countries worldwide,13 behind\nregional peers such as China, India, Indonesi",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
+    "A_chunks": [
+      {
+        "chunk_id": "ts2023:p16:c0:d24c5e1d84",
+        "text": "16 TAKING STOCK AUGUST 2023 The investment budget decline is compounded by persistent allocative, technical, and operational inefficiencies. Between 2011 and 2019, it took more than six Vietnamese dongs in investment to generate one Vietnamese dong in additional output.12 As a result, Vietnam achieves much less growth per dollar of investment than China, Malaysia, Republic of Korea, Singapore, and Thailand at comparable levels of per capita income and development. Vietnam's infrastructure qualit"
+      },
+      {
+        "chunk_id": "ts2023:p16:c1:afff4f32d7",
+        "text": "e and development. Vietnam's infrastructure quality ranked 77th out of 141 countries worldwide,13 behind regional peers such as China, India, Indonesia, Malaysia, and Thailand—countries that Vietnam is competing with for FDI. Investment budgets suffered from chronic under-execution with only 77 percent of allocations spent between 2017 and 2022. The large differences between budgeted and actual spending (23 percent), and the consequential high capital expenditure carried over from one year to th"
+      },
+      {
+        "chunk_id": "ts2023:p16:c2:01094fcbb4",
+        "text": "pital expenditure carried over from one year to the next, are significantly larger than in many peer countries, and way beyond international good practices which suggest the variation levels to be below 5 percent. 14 Public investment management (PIM) inefficiency is also manifested in significant project completion delays and cost overruns. A recent World Bank review15 of selected, large-scale transport projects found an average delay time of five years, and an average cost overrun double the o"
+      },
+      {
+        "chunk_id": "ts2023:p16:c3:86d09e1fde",
+        "text": "ve years, and an average cost overrun double the original cost at the design and budget allocation stage. In addition, public asset management remains inadequate. Post-construction infrastructure assets are not properly recorded nor managed after project completion, causing inadequate maintenance of public assets. Overall, it is estimated that the budget only financed 40 percent of minimum needs in road infrastructure maintenance.16 There are no up- to-date and integrated asset registries that c"
+      },
+      {
+        "chunk_id": "ts2023:p16:c4:96980fb14b",
+        "text": "up- to-date and integrated asset registries that capture information—such as cost of investment, operation and maintenance, location, and price of asset over time-for all infrastructure at national and sub- national levels. Since the 1990s, the Vietnamese Government has embarked on a policy of spending decentralization. The share of central government investment in total public investment declined from 40 percent in 2017 to 20 percent in 2022. This decentralization policy has channeled an averag"
+      },
+      {
+        "chunk_id": "ts2023:p16:c5:b781e8c6ea",
+        "text": "is decentralization policy has channeled an average of 80 percent of public investment (2017-2022) through subnational governments (SNGs), more than double the averages in unitary countries (34.5 percent) and overall (39.5 percent). This devolution of spending decisions to provincial authorities has created many positive outcomes, particularly in service delivery. However, it has led to weak coordination across provinces and with central government and to proliferation of duplicate investments w"
+      },
+      {
+        "chunk_id": "ts2023:p16:c6:b4742b5f81",
+        "text": "nt and to proliferation of duplicate investments which are executed by both the central government and 63 provinces. There has been over-investment by provinces in low value, disjoint projects and stranded assets, with potential negative impact on the environment (such as low-occupancy industrial parks and provincial ports). Consequently, inefficiencies have arisen from allocative duplications, implementation challenges, negative externalities, and sub-optimal private sector mobilization and fin"
+      },
+      {
+        "chunk_id": "ts2023:p16:c7:16227851dd",
+        "text": "nd sub-optimal private sector mobilization and financing. Vietnam has pursued several approaches to regional investment coordination; however, none has produced the expected results due to legal constraints and the lack of effective financing arrangements. Vietnam's public investments and assets are increasingly exposed to growing climate change related risks. These include physical threats related to extreme weather events and climate change, and transition risks as the country commits to net z"
+      },
+      {
+        "chunk_id": "ts2023:p16:c8:7989a785d7",
+        "text": "d transition risks as the country commits to net zero emissions by 2050. Vietnam's total incremental financing needs for the resilient and decarbonizing pathways could reach an estimated 12 Incremental capital output ratio (ICOR) data from Vietnam General Statistics Office (GSO). 13 World Economic Forum - The Global Competitiveness Index (2019). 14 Public Expenditure and Financial Accountability (PEFA) Framework. 15 Regional Investments in Vietnam: Challenges and Opportunities (World Bank Policy"
+      },
+      {
+        "chunk_id": "ts2023:p16:c9:cf631771cb",
+        "text": "m: Challenges and Opportunities (World Bank Policy Note, 2023). In the same review, it is noted that time overrun tends to vary more widely between one to three years in the case of smaller projects. 16 Vibrant Vietnam: Forging the Foundation of a High-Income Economy\" (World Bank Report, 2019)."
+      }
+    ],
+    "B_chunks": [
+      {
+        "chunk_id": "ts2023:p16:c0:aa206fc43f",
+        "text": "TAKING STOCK AUGUST 2023. The investment budget decline is compounded by persistent allocative, technical, and operational inefficiencies. Between 2011 and 2019, it took more than six Vietnamese dongs in investment to generate one Vietnamese dong in additional output.12 As a result, Vietnam achieves much less growth per dollar of investment than China, Malaysia, Republic of Korea, Singapore, and Thailand at comparable levels of per capita income and development. Vietnam's infrastructure quality ranked 77th out of 141 countries worldwide,13 behind regional peers such as China, India, Indonesia, Malaysia, and Thailand—countries that Vietnam is competing with for FDI. Investment budgets suffered from chronic under-execution with only 77 percent of allocations spent between 2017 and 2022."
+      },
+      {
+        "chunk_id": "ts2023:p16:c1:e17804a7f0",
+        "text": "TAKING STOCK AUGUST 2023. The large differences between budgeted and actual spending (23 percent), and the consequential high capital expenditure carried over from one year to the next, are significantly larger than in many peer countries, and way beyond international good practices which suggest the variation levels to be below 5 percent. 14 Public investment management (PIM) inefficiency is also manifested in significant project completion delays and cost overruns. A recent World Bank review15 of selected, large-scale transport projects found an average delay time of five years, and an average cost overrun double the original cost at the design and budget allocation stage. In addition, public asset management remains inadequate. Post-construction infrastructure assets are not properly recorded nor managed after project completion, causing inadequate maintenance of public assets."
+      },
+      {
+        "chunk_id": "ts2023:p16:c2:d15abb85e3",
+        "text": "TAKING STOCK AUGUST 2023. Overall, it is estimated that the budget only financed 40 percent of minimum needs in road infrastructure maintenance.16 There are no upto-date and integrated asset registries that capture information—such as cost of investment, operation and maintenance, location, and price of asset over time-for all infrastructure at national and sub- national levels."
+      },
+      {
+        "chunk_id": "ts2023:p16:c3:2f2cbff085",
+        "text": "TAKING STOCK AUGUST 2023. Since the 1990s, the Vietnamese Government has embarked on a policy of spending decentralization. The share of central government investment in total public investment declined from 40 percent in 2017 to 20 percent in 2022. This decentralization policy has channeled an average of 80 percent of public investment (2017-2022) through subnational governments (SNGs), more than double the averages in unitary countries (34.5 percent) and overall (39.5 percent). This devolution of spending decisions to provincial authorities has created many positive outcomes, particularly in service delivery. However, it has led to weak coordination across provinces and with central government and to proliferation of duplicate investments which are executed by both the central government and 63 provinces."
+      },
+      {
+        "chunk_id": "ts2023:p16:c4:ccbfe246d2",
+        "text": "TAKING STOCK AUGUST 2023. There has been over-investment by provinces in low value, disjoint projects and stranded assets, with potential negative impact on the environment (such as low-occupancy industrial parks and provincial ports). Consequently, inefficiencies have arisen from allocative duplications, implementation challenges, negative externalities, and sub-optimal private sector mobilization and financing. Vietnam has pursued several approaches to regional investment coordination; however, none has produced the expected results due to legal constraints and the lack of effective financing arrangements. Vietnam's public investments and assets are increasingly exposed to growing climate change related risks. These include physical threats related to extreme weather events and climate change, and transition risks as the country commits to net zero emissions by 2050."
+      },
+      {
+        "chunk_id": "ts2023:p16:c5:4ff3a0de3b",
+        "text": "TAKING STOCK AUGUST 2023. Vietnam's total incremental financing needs for the resilient and decarbonizing pathways could reach an estimated 12 Incremental capital output ratio (ICOR) data from Vietnam General Statistics Office (GSO). 13 World Economic Forum - The Global Competitiveness Index (2019). 14 Public Expenditure and Financial Accountability (PEFA) Framework. 15 Regional Investments in Vietnam: Challenges and Opportunities (World Bank Policy Note, 2023). In the same review, it is noted that time overrun tends to vary more widely between one to three years in the case of smaller projects. 16 Vibrant Vietnam: Forging the Foundation of a High-Income Economy\" (World Bank Report, 2019)."
+      }
+    ]
+  },
+  {
+    "position": "ts2023:p17",
+    "page_text_excerpt": "17\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\n17 Vietnam Country Climate Development Report (CCDR) (World Bank, 2022).\nUS$701 billion over 2022-2040, or approximately 6.8\npercent of GDP per year.17 Public investment—with its\ncritical role as catalyst for private investment—would\naccount for more than one-third of the financing\nneeds, or about 2.4 percent of GDP. However,\nclimate change adaptation is not fully accounted for\nin the overall fiscal strategy nor in prioritization of\nprojects for budget funding in Vietnam. Subnational\ngovernments are least prepared as they lack policies\nand processes ",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
+    "A_chunks": [
+      {
+        "chunk_id": "ts2023:p17:c0:e12ee06c57",
+        "text": "17 MAKING PUBLIC INVESTMENT WORK FOR GROWTH 17 Vietnam Country Climate Development Report (CCDR) (World Bank, 2022). US$701 billion over 2022-2040, or approximately 6.8 percent of GDP per year.17 Public investment—with its critical role as catalyst for private investment—would account for more than one-third of the financing needs, or about 2.4 percent of GDP. However, climate change adaptation is not fully accounted for in the overall fiscal strategy nor in prioritization of projects for budget"
+      },
+      {
+        "chunk_id": "ts2023:p17:c1:de8cf13de3",
+        "text": "ategy nor in prioritization of projects for budget funding in Vietnam. Subnational governments are least prepared as they lack policies and processes to assess and mitigate climate change's physical and transition risks on large investments and assets. The lack of information on the value of assets and their risk exposure increases the cost of their insurance. Transboundary development challenges are emerging more frequently with more severity and require coordinated actions across various level"
+      },
+      {
+        "chunk_id": "ts2023:p17:c2:5e35065c89",
+        "text": "d require coordinated actions across various levels of government. Going forward, realizing the power of public investment in Vietnam will require sustaining its level, rationalizing its composition, and addressing the shortcomings in investment management and intergovernmental fiscal institutions—in ways that support Vietnam's move to a more resilient and greener model. More specifically, the government may consider the following measures in the short to medium-term. z To strengthen public inve"
+      },
+      {
+        "chunk_id": "ts2023:p17:c3:bfda906791",
+        "text": " short to medium-term. z To strengthen public investment management institutions, the government will need to improve the \"quality-at-entry\" of projects through providing more time and budget, and methodological guidelines to prepare project pre-feasibility studies. It will be important to regularly update unit costs and land prices close to market prices to ensure cost estimates are realistic. To enhance the impact of public investment on climate resilience, the government should also mandate c"
+      },
+      {
+        "chunk_id": "ts2023:p17:c4:e565a85efd",
+        "text": "e resilience, the government should also mandate climate change screening from the early stage of project preparation and evaluate adaptation measures in pre-feasibility studies and feasibility studies of projects with high risks. It is equally vital to accelerate project implementation. A practical action would be to separate land clearance and resettlement from the investment project particularly for large projects. Central ministries and provinces should develop a systemic digital mechanism t"
+      },
+      {
+        "chunk_id": "ts2023:p17:c5:a8d74f29c5",
+        "text": "nces should develop a systemic digital mechanism to identify projects with a high risk of failure and streamline steps for project adjustment and/or termination. Also, the scope and depth of ex-post project assessments should be increased, at least for all large and medium projects. Public asset management also needs to be strengthened to maximize the impact of the project after completion. Foundational steps would include establishing a database of all infrastructure values, using technology ap"
+      },
+      {
+        "chunk_id": "ts2023:p17:c6:b043f74ea6",
+        "text": " of all infrastructure values, using technology applications and data analytics for budget allocation decisions for operations and maintenance (O&M) and new investments, and phasing in infrastructure asset accounting and reporting reforms. z To rationalize intergovernmental fiscal institutions, it is recommended that inter alia the government consider rebalancing the infrastructure investment budget from provincial level to central level. The budgets could be made more strategic and programmatic"
+      },
+      {
+        "chunk_id": "ts2023:p17:c7:cd5b614dc3",
+        "text": "gets could be made more strategic and programmatic, instead of a list of fragmented individual projects, through improving budget classification structures and operationalizing more effectively the \"public investment program\" modality to facilitate policy orientation (including regional development, green transition, and climate resilience). In light of the upcoming revision of the State Budget Law, the fiscal decentralization framework should be modernized— including on SNG own-source revenue a"
+      },
+      {
+        "chunk_id": "ts2023:p17:c8:67e61c8f64",
+        "text": " modernized— including on SNG own-source revenue assignments, revenue sharing arrangements, equalization rules, and transfers mechanisms—to better balance the needs of central government and SNGs and incentivize green and climate actions across levels of government. Legal impediments to inter-linked public investment across levels of government should be unlocked. Last but not least, new co- financing mechanisms should be institutionalized based on a well-defined formula that integrate external "
+      },
+      {
+        "chunk_id": "ts2023:p17:c9:73ce8438fc",
+        "text": "on a well-defined formula that integrate external and domestic financing considerations."
+      }
+    ],
+    "B_chunks": [
+      {
+        "chunk_id": "ts2023:p17:c0:e12ee06c57",
+        "text": "17 MAKING PUBLIC INVESTMENT WORK FOR GROWTH 17 Vietnam Country Climate Development Report (CCDR) (World Bank, 2022). US$701 billion over 2022-2040, or approximately 6.8 percent of GDP per year.17 Public investment—with its critical role as catalyst for private investment—would account for more than one-third of the financing needs, or about 2.4 percent of GDP. However, climate change adaptation is not fully accounted for in the overall fiscal strategy nor in prioritization of projects for budget funding in Vietnam. Subnational governments are least prepared as they lack policies and processes to assess and mitigate climate change's physical and transition risks on large investments and assets. The lack of information on the value of assets and their risk exposure increases the cost of their insurance. Transboundary development challenges are emerging more frequently with more severity and require coordinated actions across various levels of government."
+      },
+      {
+        "chunk_id": "ts2023:p17:c1:9366d96f33",
+        "text": "Going forward, realizing the power of public investment in Vietnam will require sustaining its level, rationalizing its composition, and addressing the shortcomings in investment management and intergovernmental fiscal institutions—in ways that support Vietnam's move to a more resilient and greener model. More specifically, the government may consider the following measures in the short to medium-term. z To strengthen public investment management institutions, the government will need to improve the \"quality-at-entry\" of projects through providing more time and budget, and methodological guidelines to prepare project pre-feasibility studies. It will be important to regularly update unit costs and land prices close to market prices to ensure cost estimates are realistic."
+      },
+      {
+        "chunk_id": "ts2023:p17:c2:08966eb47f",
+        "text": "To enhance the impact of public investment on climate resilience, the government should also mandate climate change screening from the early stage of project preparation and evaluate adaptation measures in pre-feasibility studies and feasibility studies of projects with high risks. It is equally vital to accelerate project implementation. A practical action would be to separate land clearance and resettlement from the investment project particularly for large projects. Central ministries and provinces should develop a systemic digital mechanism to identify projects with a high risk of failure and streamline steps for project adjustment and/or termination. Also, the scope and depth of ex-post project assessments should be increased, at least for all large and medium projects. Public asset management also needs to be strengthened to maximize the impact of the project after completion."
+      },
+      {
+        "chunk_id": "ts2023:p17:c3:87ee9e382d",
+        "text": "Foundational steps would include establishing a database of all infrastructure values, using technology applications and data analytics for budget allocation decisions for operations and maintenance (O&M) and new investments, and phasing in infrastructure asset accounting and reporting reforms."
+      },
+      {
+        "chunk_id": "ts2023:p17:c4:d4dd41ce11",
+        "text": "z To rationalize intergovernmental fiscal institutions, it is recommended that inter alia the government consider rebalancing the infrastructure investment budget from provincial level to central level. The budgets could be made more strategic and programmatic, instead of a list of fragmented individual projects, through improving budget classification structures and operationalizing more effectively the \"public investment program\" modality to facilitate policy orientation (including regional development, green transition, and climate resilience). In light of the upcoming revision of the State Budget Law, the fiscal decentralization framework should be modernized— including on SNG own-source revenue assignments, revenue sharing arrangements, equalization rules, and transfers mechanisms—to better balance the needs of central government and SNGs and incentivize green and climate actions across levels of government."
+      },
+      {
+        "chunk_id": "ts2023:p17:c5:513be93f40",
+        "text": "Legal impediments to inter-linked public investment across levels of government should be unlocked. Last but not least, new cofinancing mechanisms should be institutionalized based on a well-defined formula that integrate external and domestic financing considerations."
+      }
+    ]
+  },
+  {
+    "position": "ts2023:p19",
+    "page_text_excerpt": "19\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\nThe global economy is facing strong headwinds\nGlobal economic growth is expected to decelerate substantially from 3.1 percent in 2022 to 2.1\npercent in 2023 (Figure 1.1). This slowdown is due to the continued tightening of monetary policy to\ncontrol high inflation and weakening demand in most advanced economies.18 Inflation is projected to decline\ngradually as demand weakens and commodity prices decrease but remain well above pre-pandemic levels.\nGlobal trade is expected to grow by only 1.7 percent in 2023 (2.6 percentage points lower than June 2022'",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
+    "A_chunks": [
+      {
+        "chunk_id": "ts2023:p19:c0:28af3216d5",
+        "text": "19 MAKING PUBLIC INVESTMENT WORK FOR GROWTH The global economy is facing strong headwinds Global economic growth is expected to decelerate substantially from 3.1 percent in 2022 to 2.1 percent in 2023 (Figure 1.1). This slowdown is due to the continued tightening of monetary policy to control high inflation and weakening demand in most advanced economies.18 Inflation is projected to decline gradually as demand weakens and commodity prices decrease but remain well above pre-pandemic levels. Globa"
+      },
+      {
+        "chunk_id": "ts2023:p19:c1:a7881564d0",
+        "text": "e but remain well above pre-pandemic levels. Global trade is expected to grow by only 1.7 percent in 2023 (2.6 percentage points lower than June 2022's forecast, Figure 1.2). Vietnam's economic growth decelerated sharply After registering 8 percent real GDP growth in 2022, economic growth decelerated sharply in the first semester of 2023, reflecting a slump in external and weaker domestic demand. Vietnam's real GDP growth slowed to 3.7 percent (y/y) during the first semester of 2023, 19 well bel"
+      },
+      {
+        "chunk_id": "ts2023:p19:c2:7930150f20",
+        "text": "/y) during the first semester of 2023, 19 well below growth posted during the same period in 2022 (6.4 percent, y/y) (Figure 1.3). The slowdown was led by a deterioration of external demand with exports contracting by 12 percent (y/y) in the first half of 2023, in turn weighing on the performance of the export sector, which is estimated to account for 50 percent of Vietnam's GDP directly and indirectly. 20 Simultaneously, domestic demand also moderated after the last's I. RECENT ECONOMIC DEVELOP"
+      },
+      {
+        "chunk_id": "ts2023:p19:c3:ea39b51df2",
+        "text": "erated after the last's I. RECENT ECONOMIC DEVELOPMENTS Figure 1.1. Global GDP growth Percent (y/y) Source: Global Economic Prospects, June 2023, World Bank 2022 2024f (Jun-23) 2023f (Jun-23) 2023f (Jun-22) 0 2 4 6 8 World Advanced EMDEs China United States Euro Area 8 6 4 2 0 World Advanced EMDEs China United States Euro Area Figure 1.2. Global goods trade growth Percent (y/y) Growth June-23 forecasts June-22 forecasts 25 15 5 -5 -15 2018 2019 2020 2021 2022 2023f 2024f 18 World Bank, Global Ec"
+      },
+      {
+        "chunk_id": "ts2023:p19:c4:eb29e530d1",
+        "text": "020 2021 2022 2023f 2024f 18 World Bank, Global Economic Prospects, June 2023. 19 Real GDP grew by 3.3 percent (y/y) in Q1-2023, lower than other economies in East Asia except Thailand, but slightly improved to 4.1 percent (y/y) in Q2-2023. 20 The size of export sector is measured by the domestic direct and indirect value-added from exports as a share of GDP. Source: Martins Guilhoto, J., C. Webb and N. Yamano (2022), \"Guide to OECD TiVA Indicators, 2021 edition\", OECD Science, Technology and In"
+      },
+      {
+        "chunk_id": "ts2023:p19:c5:1bddc4ef70",
+        "text": "rs, 2021 edition\", OECD Science, Technology and Industry Working Papers, No. 2022/02, OECD Publishing, Paris, https://doi.org/10.1787/58aa22b1-en. The value 50 percent is for 2019."
+      }
+    ],
+    "B_chunks": [
+      {
+        "chunk_id": "ts2023:p19:c0:28af3216d5",
+        "text": "19 MAKING PUBLIC INVESTMENT WORK FOR GROWTH The global economy is facing strong headwinds Global economic growth is expected to decelerate substantially from 3.1 percent in 2022 to 2.1 percent in 2023 (Figure 1.1). This slowdown is due to the continued tightening of monetary policy to control high inflation and weakening demand in most advanced economies.18 Inflation is projected to decline gradually as demand weakens and commodity prices decrease but remain well above pre-pandemic levels. Global trade is expected to grow by only 1.7 percent in 2023 (2.6 percentage points lower than June 2022's forecast, Figure 1.2). Vietnam's economic growth decelerated sharply After registering 8 percent real GDP growth in 2022, economic growth decelerated sharply in the first semester of 2023, reflecting a slump in external and weaker domestic demand."
+      },
+      {
+        "chunk_id": "ts2023:p19:c1:62e69d4cc1",
+        "text": "Vietnam's real GDP growth slowed to 3.7 percent (y/y) during the first semester of 2023, 19 well below growth posted during the same period in 2022 (6.4 percent, y/y) (Figure 1.3). The slowdown was led by a deterioration of external demand with exports contracting by 12 percent (y/y) in the first half of 2023, in turn weighing on the performance of the export sector, which is estimated to account for 50 percent of Vietnam's GDP directly and indirectly. 20 Simultaneously, domestic demand also moderated after the last's I. RECENT ECONOMIC DEVELOPMENTS Figure 1.1. Global GDP growth -5 -15 2018 2019 2020 2021 2022 2023f 2024f 18 World Bank, Global Economic Prospects, June 2023. 19 Real GDP grew by 3.3 percent (y/y) in Q1-2023, lower than other economies in East Asia except Thailand, but slightly improved to 4.1 percent (y/y) in Q2-2023."
+      },
+      {
+        "chunk_id": "ts2023:p19:c2:5045cd5612",
+        "text": "5. 20 The size of export sector is measured by the domestic direct and indirect value-added from exports as a share of GDP. Source: Martins Guilhoto, J., C. Webb and N. Yamano (2022), \"Guide to OECD TiVA Indicators, 2021 edition\", OECD Science, Technology and Industry Working Papers, No. 2022/02, OECD Publishing, Paris, https://doi.org/10.1787/58aa22b1-en. The value 50 percent is for 2019."
+      }
+    ]
+  },
+  {
+    "position": "ts2023:p20",
+    "page_text_excerpt": "20\nTAKING STOCK AUGUST 2023\nyear strong post-COVID rebound, due to fading base effects and weakening consumer confidence. Growth\nin final consumption expenditure slowed to 2.7 percent (y/y) in the first half of the year, compared with 6.1\npercent (y/y) in the first semester of 2022. Despite resilient foreign direct investment (FDI) and a slight pick-\nup in public investment, total investment growth also declined, driven by weak growth in private domestic\ninvestment which slowed substantially to 2.4 percent (y/y) in the first semester of 2023 from 11.8 percent\nduring the same period last year.\n",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
+    "A_chunks": [
+      {
+        "chunk_id": "ts2023:p20:c0:f77ddff4c3",
+        "text": "20 TAKING STOCK AUGUST 2023 year strong post-COVID rebound, due to fading base effects and weakening consumer confidence. Growth in final consumption expenditure slowed to 2.7 percent (y/y) in the first half of the year, compared with 6.1 percent (y/y) in the first semester of 2022. Despite resilient foreign direct investment (FDI) and a slight pick- up in public investment, total investment growth also declined, driven by weak growth in private domestic investment which slowed substantially to "
+      },
+      {
+        "chunk_id": "ts2023:p20:c1:b794735afe",
+        "text": "domestic investment which slowed substantially to 2.4 percent (y/y) in the first semester of 2023 from 11.8 percent during the same period last year. The slowdown on the demand side is mirrored on the production side of GDP. Reflecting the contraction in export demand, the contribution of the industrial sector to GDP growth fell to 0.4 percentage points during the first half of the year, compared with 2.8 percentage points during the same period last year. Meanwhile, services sector contributed "
+      },
+      {
+        "chunk_id": "ts2023:p20:c2:6731f2692d",
+        "text": "last year. Meanwhile, services sector contributed 2.8 percentage points to overall GDP growth in the first half of the year, compared with 2.9 percentage points during the same period of 2022, as stronger performance in the hospitality sector driven by the recovery of domestic and foreign tourism offset normalizing retail and wholesale trade. 21 The contribution of the agricultural sector to GDP growth remained stable but low at 0.3 percentage points (Figure 1.4). The slump in external demand an"
+      },
+      {
+        "chunk_id": "ts2023:p20:c3:8617419ef0",
+        "text": "ints (Figure 1.4). The slump in external demand and recurrent power outages dampened performance of Vietnam's export-oriented manufacturing sector. Tracking weakness in exports, industrial production contracted by 0.4 percent (y/y) in the first quarter of 2023 and subsequently expanded marginally by 2.5 percent (y/y) in quarter 2 (Figure 1.5).22 Weaker external demand affected all key manufacturing exports in the first half of 2023, including garments and footwear (-6.8 percent, y/y), computers "
+      },
+      {
+        "chunk_id": "ts2023:p20:c4:25b5b83aec",
+        "text": "ments and footwear (-6.8 percent, y/y), computers and other electronic products (-4.6 percent, y/y) and furniture (-7.7 percent, y/y). 23 In addition, frequent rolling power outages Figure 1.3. Real GDP growth by expenditure components Percent (y/y, NSA) Figure 1.4. Contribution to GDP growth by sector Percentage points (y/y, NSA) 0 1 2 3 4 5 6 7 8 H1-18 H1-19 H1-20 H1-21 H1-22 H1-23 Agriculture Industry Services GDP H1-18 H1-19 H1-20 H1-21 H1-22 H1-23 8 7 6 5 4 3 2 1 0 Final consumption Investm"
+      },
+      {
+        "chunk_id": "ts2023:p20:c5:4cbc8883b8",
+        "text": " H1-23 8 7 6 5 4 3 2 1 0 Final consumption Investment Exports Imports Real GDP Agriculture Industry Services GDP 25 15 5 0 -5 -15-15 -10 -5 0 5 10 15 20 25 H1-18 H1-19 H1-20 H1-21 H1-22 H1-23 Tiêu dùng cuối cùng Đầu tư Xuất khẩu Nhập khẩu GDP H1-18 H1-19 H1-20 H1-21 H1-22 H1-23 7.43 7.12 1.74 5.76 6.46 3.72 21 According to GSO, tourism and travel services grew by 65.9 percent y/y in the first half of 2023, while accommodation, food, and beverage services grew by 18.7 percent y/y in the same peri"
+      },
+      {
+        "chunk_id": "ts2023:p20:c6:557bc2c230",
+        "text": "services grew by 18.7 percent y/y in the same period. The number of foreign visitors increased from 0.6 M in H1-2022 to 5.6 million in H2-2023. The number of domestic visitors increased slightly from 60.8 million in H1-2022 to 64 million in H1-2023. 22 Reflecting the contraction in industrial production, imports also contracted 17.9 percent y/y, in H1-2023 23 Havers Analytics and World Bank staff calculations. Source: GSO and World Bank staff calculations"
+      }
+    ],
+    "B_chunks": [
+      {
+        "chunk_id": "ts2023:p20:c0:f77ddff4c3",
+        "text": "20 TAKING STOCK AUGUST 2023 year strong post-COVID rebound, due to fading base effects and weakening consumer confidence. Growth in final consumption expenditure slowed to 2.7 percent (y/y) in the first half of the year, compared with 6.1 percent (y/y) in the first semester of 2022. Despite resilient foreign direct investment (FDI) and a slight pickup in public investment, total investment growth also declined, driven by weak growth in private domestic investment which slowed substantially to 2.4 percent (y/y) in the first semester of 2023 from 11.8 percent during the same period last year. The slowdown on the demand side is mirrored on the production side of GDP. Reflecting the contraction in export demand, the contribution of the industrial sector to GDP growth fell to 0.4 percentage points during the first half of the year, compared with 2.8 percentage points during the same period last year."
+      },
+      {
+        "chunk_id": "ts2023:p20:c1:9615db85ed",
+        "text": "Meanwhile, services sector contributed 2.8 percentage points to overall GDP growth in the first half of the year, compared with 2.9 percentage points during the same period of 2022, as stronger performance in the hospitality sector driven by the recovery of domestic and foreign tourism offset normalizing retail and wholesale trade. 21 The contribution of the agricultural sector to GDP growth remained stable but low at 0.3 percentage points (Figure 1.4). The slump in external demand and recurrent power outages dampened performance of Vietnam's export-oriented manufacturing sector."
+      },
+      {
+        "chunk_id": "ts2023:p20:c2:decf4cf3d2",
+        "text": "Tracking weakness in exports, industrial production contracted by 0.4 percent (y/y) in the first quarter of 2023 and subsequently expanded marginally by 2.5 percent (y/y) in quarter 2 (Figure 1.5).22 Weaker external demand affected all key manufacturing exports in the first half of 2023, including garments and footwear (-6.8 percent, y/y), computers and other electronic products (-4.6 percent, y/y) and furniture (-7.7 percent, y/y). 23 In addition, frequent rolling power outages Figure 1.3. Real GDP growth by expenditure components H1-18 H1-19 H1-20 H1-21 H1-22 H1-23 Agriculture Industry Services GDP H1-18 H1-19 H1-20 H1-21 H1-22 H1-23 -5 -15-15 -10 -5 H1-18 H1-19 H1-20 H1-21 H1-22 H1-23 Tiêu dùng cuối cùng Đầu tư Xuất khẩu Nhập khẩu GDP H1-18 H1-19 H1-20 H1-21 H1-22 H1-23"
+      },
+      {
+        "chunk_id": "ts2023:p20:c3:87acf9c0ca",
+        "text": "3.72. 21 According to GSO, tourism and travel services grew by 65.9 percent y/y in the first half of 2023, while accommodation, food, and beverage services grew by 18.7 percent y/y in the same period. The number of foreign visitors increased from 0.6 M in H1-2022 to 5.6 million in H2-2023. The number of domestic visitors increased slightly from 60.8 million in H1-2022 to 64 million in H1-2023. 22 Reflecting the contraction in industrial production, imports also contracted 17.9 percent y/y, in H1-2023 23 Havers Analytics and World Bank staff calculations. Source: GSO and World Bank staff calculations"
+      }
+    ]
+  },
+  {
+    "position": "ts2023:p21",
+    "page_text_excerpt": "21\nMAKING PUBLIC INVESTMENT WORK FOR GROWTH\nMeanwhile, private consumption also slowed due to fading base effects from last year's strong\npost-COVID rebound and weakness in consumer confidence. Growth of retail sales – a proxy for private\nconsumption – slowed to 10.9 percent (y/y) in the first half of 2023 (compared with 12 percent (y/y) in the\nfirst half of 2022), with monthly retail sales growth showing a steady deceleration from 12.8 percent (y/y) in\nJanuary to just 6.5 percent (y/y) in June (Figure 1.6).24 This slowdown in private consumption is partly due to\nfading low-base effects but al",
+    "sampling_rule": "first 10 sorted CONTENT pages (manifest rule); declared before scoring",
+    "A_chunks": [
+      {
+        "chunk_id": "ts2023:p21:c0:8151aa4c2a",
+        "text": "21 MAKING PUBLIC INVESTMENT WORK FOR GROWTH Meanwhile, private consumption also slowed due to fading base effects from last year's strong post-COVID rebound and weakness in consumer confidence. Growth of retail sales – a proxy for private consumption – slowed to 10.9 percent (y/y) in the first half of 2023 (compared with 12 percent (y/y) in the first half of 2022), with monthly retail sales growth showing a steady deceleration from 12.8 percent (y/y) in January to just 6.5 percent (y/y) in June "
+      },
+      {
+        "chunk_id": "ts2023:p21:c1:79a6cccc41",
+        "text": "y/y) in January to just 6.5 percent (y/y) in June (Figure 1.6).24 This slowdown in private consumption is partly due to fading low-base effects but also reflects fragile consumer confidence and stagnating average incomes partly related to the effects of the external demand shock on the labor market. A June 2023 consumer survey found that 43 percent of respondents saw the economic situation as worse than a year ago compared to 27 percent in January 2023.25 Data shows that average income stagnated"
+      },
+      {
+        "chunk_id": "ts2023:p21:c2:a9d4733fc2",
+        "text": "y 2023.25 Data shows that average income stagnated at VND 6.3 million (real) in the first semester of 2023 after the steady improvement registered during 2022 (Figure 1.11).26 Total investment slowed substantially due to weaker private investment, which was only partially offset by a pickup in public investment. Growth in total investment slowed substantially to 4.7 percent (y/y) in the first semester of 2023, compared with 10.7 percent (y/y) in the same period of 2022, due to weaker private inv"
+      },
+      {
+        "chunk_id": "ts2023:p21:c3:25dc8a867f",
+        "text": "the same period of 2022, due to weaker private investment given slowing domestic and external demand (Figure 1.7). The contribution of private domestic investment to total investment eased to 1.4 percentage points in the first semester of 2023 24 Sales of goods, which contributes about 70 percent to total retail sales, slowed from 9.7 percent y/y in January 2023 to 6 percent y/y in February, well below the pre-pandemic growth rates (11.9 percent y/y), due to knock-on effects of the external dema"
+      },
+      {
+        "chunk_id": "ts2023:p21:c4:ab3c8e7436",
+        "text": "y/y), due to knock-on effects of the external demand shock and loss in consumer confidence. The substantial slowdown in sales of services is largely due to the base effect (post-pandemic normalization in sales) in tourism and hospitality services (36 percent y/y in January to 6.5 percent y/y in June). 25 Infocus, Consumer Survey June 2023. 26 GSO data, World Bank staff calculations. that affected northern Vietnam in May and June 2023 disrupted production and are estimated to have had a negative "
+      },
+      {
+        "chunk_id": "ts2023:p21:c5:e386d041fa",
+        "text": "oduction and are estimated to have had a negative 0.3 percent impact on GDP (Box 1.1). Figure 1.5. Industrial Production Index and Exports Percent (y/y, NSA) Source: GSO and World Bank staff calculations Note: Industry includes construction Jun-20 Jun-21 Jun-22 Jun-23 Figure 1.6. Retail sales by sector Percent (y/y, NSA) 220 180 140 100 60 20 -20 -60 -100 Exports (fob) Industrial Production Index Total Goods Services -40 -30 -20 -10 0 10 20 30 40 50 60 Jun-19 Dec-19 Jun-20 Dec-20 Jun-21 Dec-21 J"
+      },
+      {
+        "chunk_id": "ts2023:p21:c6:d46dd09f9f",
+        "text": " 50 60 Jun-19 Dec-19 Jun-20 Dec-20 Jun-21 Dec-21 Jun-22 Dec-22 Jun-23 Exports (fob) Industrial Produc�on Index 60 50 40 30 20 10 0 -10 -20 -30 Jun-19 Dec-19 Jun-20 Dec-20 Jun-21 Dec-21 Jun-22 Dec-22 Jun-23 -100 -60 -20 20 60 100 140 180 220 Jun-20 Jun-21 Jun-22 Jun-23 Total Goods Services"
+      }
+    ],
+    "B_chunks": [
+      {
+        "chunk_id": "ts2023:p21:c0:8151aa4c2a",
+        "text": "21 MAKING PUBLIC INVESTMENT WORK FOR GROWTH Meanwhile, private consumption also slowed due to fading base effects from last year's strong post-COVID rebound and weakness in consumer confidence. Growth of retail sales – a proxy for private consumption – slowed to 10.9 percent (y/y) in the first half of 2023 (compared with 12 percent (y/y) in the first half of 2022), with monthly retail sales growth showing a steady deceleration from 12.8 percent (y/y) in January to just 6.5 percent (y/y) in June (Figure 1.6).24 This slowdown in private consumption is partly due to fading low-base effects but also reflects fragile consumer confidence and stagnating average incomes partly related to the effects of the external demand shock on the labor market."
+      },
+      {
+        "chunk_id": "ts2023:p21:c1:f017ab013d",
+        "text": "A June 2023 consumer survey found that 43 percent of respondents saw the economic situation as worse than a year ago compared to 27 percent in January 2023.25 Data shows that average income stagnated at VND 6.3 million (real) in the first semester of 2023 after the steady improvement registered during 2022 (Figure 1.11).26 Total investment slowed substantially due to weaker private investment, which was only partially offset by a pickup in public investment. Growth in total investment slowed substantially to 4.7 percent (y/y) in the first semester of 2023, compared with 10.7 percent (y/y) in the same period of 2022, due to weaker private investment given slowing domestic and external demand (Figure 1.7)."
+      },
+      {
+        "chunk_id": "ts2023:p21:c2:537173e3f6",
+        "text": "The contribution of private domestic investment to total investment eased to 1.4 percentage points in the first semester of 2023 24 Sales of goods, which contributes about 70 percent to total retail sales, slowed from 9.7 percent y/y in January 2023 to 6 percent y/y in February, well below the pre-pandemic growth rates (11.9 percent y/y), due to knock-on effects of the external demand shock and loss in consumer confidence. The substantial slowdown in sales of services is largely due to the base effect (post-pandemic normalization in sales) in tourism and hospitality services (36 percent y/y in January to 6.5 percent y/y in June). 25 Infocus, Consumer Survey June 2023. 26 GSO data, World Bank staff calculations. that affected northern Vietnam in May and June 2023 disrupted production and are estimated to have had a negative 0.3 percent impact on GDP (Box 1.1). Figure 1.5. Industrial Production Index and Exports"
+      },
+      {
+        "chunk_id": "ts2023:p21:c3:6835612f6c",
+        "text": "Percent (y/y, NSA). Source: GSO and World Bank staff calculations Note: Industry includes construction Jun-20 Jun-21 Jun-22 Jun-23 Figure 1.6. Retail sales by sector -20 -60 -100 Exports (fob) Industrial Production Index Total Goods Services -40 -30 -20 -10 Jun-19 Dec-19 Jun-20 Dec-20 Jun-21 Dec-21 Jun-22 Dec-22 Jun-23 Exports (fob) Industrial Produc�on Index -10 -20 -30 Jun-19 Dec-19 Jun-20 Dec-20 Jun-21 Dec-21 Jun-22 Dec-22 Jun-23 -100 -60 -20"
       }
     ]
   }
