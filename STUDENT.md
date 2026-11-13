@@ -5,4 +5,4 @@
 - Lớp: **L3A**
 - Chủ đề và corpus: Kinh tế Việt Nam — World Bank *Taking Stock* August 2023 + August 2024 (CC BY-NC 3.0 IGO, 116 trang nội dung) — `data/manifest.json`
 - Repo bài nộp: https://github.com/Stormaka/K5-L3A-Day06-HoangBaoNguyen-2A202603384-DataIngestionEngineering
-- Commit chốt bài: **[ĐIỀN COMMIT HASH SAU KHI COMMIT]**
+- Commit chốt bài: **7ad839b** (commit chứa toàn bộ bài nộp; commit ngay sau chỉ điền ô này)
