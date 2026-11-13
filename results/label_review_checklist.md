@@ -2,6 +2,7 @@
 
 Đánh dấu `[x]` vào cột **Đồng ý** sau khi đã đọc nhãn + lý do và đối chiếu với dữ liệu gốc.
 Nếu không đồng ý: sửa điểm trong file nhãn tương ứng và ghi lý do vào cột Ghi chú.
+Giải thích chi tiết từng nhãn (tiếng Việt): `results/label_explanations_vi.md`.
 
 ## 1. Grounding (15 nhãn) — nguồn: `results/grounding_audit.json`
 
